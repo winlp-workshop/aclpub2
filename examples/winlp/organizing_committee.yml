@@ -1,0 +1,58 @@
+- members:
+  - first_name: Chen
+    institution: Peking University
+    last_name: Zhang
+  - first_name: Emily
+    institution: University of Edinburgh
+    last_name: Allaway
+  - first_name: Hua
+    institution: New York University (Shanghai) / University of Washington
+    last_name: Shen
+  - first_name: Lesly
+    institution: Google
+    last_name: Miculicich
+  - first_name: Yinqiao
+    institution: City University of Hong Kong
+    last_name: Li
+  - first_name: Meryem
+    institution: Meta
+    last_name: M'hamdi
+  - first_name: Peerat
+    institution: AI Singapore
+    last_name: Limkonchotiwat
+  - first_name: Richard He
+    institution: Apple
+    last_name: Bai
+  - first_name: Santosh
+    institution: Amazon
+    last_name: T.Y.S.S.
+  - first_name: Sophia Simeng
+    institution: Yale University
+    last_name: Han
+  - first_name: Surendrabikram
+    institution: Virginia Tech, USA
+    last_name: Thapa
+  - first_name: Wiem Ben
+    institution: University College London
+    last_name: Rim
+  role: Organizing Chairs
+- members:
+  - first_name: Alham Fikri
+    institution: MBZUAI \& Google Research
+    last_name: Aji
+  - first_name: Helena
+    institution: IIMAS, UNAM
+    last_name: Gomez-Adorno
+  - first_name: Sarvnaz
+    institution: CSIRO
+    last_name: Karimi
+  - first_name: Sunayana
+    institution: Microsoft Research India
+    last_name: Sitaram
+  - first_name: Viviane
+    institution: UFRGS - Brazil
+    last_name: Moreira
+  - first_name: Zeerak
+    institution: University of Edinburgh
+    last_name: Talat
+  role: Advisory Board

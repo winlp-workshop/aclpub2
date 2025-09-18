@@ -1,0 +1,36 @@
+book_title: Proceedings of the 9th Widening NLP Workshop
+event_name: The 9th Widening NLP Workshop
+volume_name: main
+cover_subtitle: Proceedings of the Workshop
+anthology_venue_id: WiNLP
+start_date: 2025-11-04
+end_date: 2025-11-09
+isbn: XXX-X-XXXXXX-XX-X
+location: Suzhou, China
+editors:
+  - first_name: Chen
+    last_name: Zhang
+  - first_name: Emily
+    last_name: Allaway
+  - first_name: Hua
+    last_name: Shen
+  - first_name: Lesly
+    last_name: Miculicich
+  - first_name: Yinqiao
+    last_name: Li
+  - first_name: Meryem
+    last_name: M'hamdi
+  - first_name: Peerat
+    last_name: Limkonchotiwat
+  - first_name: Richard He
+    last_name: Bai
+  - first_name: Santosh
+    last_name: T.Y.S.S.
+  - first_name: Sophia Simeng
+    last_name: Han
+  - first_name: Surendrabikram
+    last_name: Thapa
+  - first_name: Wiem Ben
+    last_name: Rim
+publisher: Association for Computational Linguistics
+#watermark_book_title: Proceedings of the 21th Annual Meeting of the\\ Special Interest Group on Discourse and Dialogue
