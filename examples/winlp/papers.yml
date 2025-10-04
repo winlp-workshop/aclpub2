@@ -1,1110 +1,2089 @@
-- abstract: The natural language generation (NLG) module in a task-oriented dialogue
-    system produces user-facing utterances conveying required information. Thus, it
-    is critical for the generated response to be natural and fluent. We propose to
-    integrate adversarial training to produce more human-like responses. The model
-    uses Straight-Through Gumbel-Softmax estimator for gradient computation. We also
-    propose a two-stage training scheme to boost performance. Empirical results show
-    that the adversarial training can effectively improve the quality of language
-    generation in both automatic and human evaluations. For example, in the RNN-LG
-    Restaurant dataset, our model AdvNLG outperforms the previous state-of-the-art
-    result by 3.6\% in BLEU.
+- abstract: 'Vision-Language Models (VLMs) often appearculturally competent but rely
+    on superficial pat.tern matching rather than genuine cultural understanding. We
+    introduce a diagnostic framework to probe VLM reasoning on fire-themedcultural
+    imagery through both classification andexplanation analysis. Testing multiple
+    modelson Western festivals, non-Western traditions.and emergency scenes reveals
+    systematic biases: models correctly identify prominent Western festivals but struggle
+    with underrepresentedcultural events, frequently offering vague labelsor dangerously
+    misclassifying emergencies ascelebrations. These failures expose the risksof symbolic
+    shortcuts and highlight the needfor cultural evaluation beyond accuracy metrics
+    to ensure interpretable and fair multimodalsystems.'
+  archival: true
   attributes:
-    paper_type: short
-    presentation_type: poster
-    submitted_area: Area 2
+    paper_length: Short (4 pages)
+    submission_type: Research Paper
   authors:
-  - email: chezhu@microsoft.com
-    first_name: Chenguang
-    instituion: Microsoft Speech and Dialogue Research Group
-    last_name: Zhu
-    openreview: ~Chenguang_Zhu1
-  file: 2.pdf
-  id: 2
-  title: Boosting Naturalness of Language in Task-oriented Dialogues via Adversarial
-    Training
-  attachments:
-    - type: software
-      file: 2.zip
-    - type: presentation
-      file: 2.pptx
-- abstract:
-    It is important to define meaningful and interpretable automatic evaluation
-    metrics for open-domain dialog research. Standard language generation metrics
-    have been shown to be ineffective for dialog. This paper introduces the FED metric
-    (fine-grained evaluation of dialog), an automatic evaluation metric which uses
-    DialoGPT, without any fine-tuning or supervision. It also introduces the FED dataset
-    which is constructed by annotating a set of human-system and human-human conversations
-    with eighteen fine-grained dialog qualities. The FED metric (1) does not rely
-    on a ground-truth response, (2) does not require training data and (3) measures
-    fine-grained dialog qualities at both the turn and whole dialog levels. FED attains
-    moderate to strong correlation with human judgement at both levels.
+  - emails: '****@dundee.ac.uk'
+    first_name: Haorui
+    institution: University of Dundee
+    last_name: Yu
+    name: Haorui Yu
+    orcid: https://orcid.org/0009-0001-2087-8879
+    username: ~Haorui_Yu1
+  - emails: '****@gmail.com'
+    first_name: Yang
+    last_name: Zhao
+    name: Yang Zhao
+    orcid: https://orcid.org/0009-0006-8952-1380
+    username: ~Yang_Zhao47
+  - emails: '****@stu.xmu.edu.cn'
+    first_name: Yijia
+    last_name: Chu
+    name: Yijia Chu
+    orcid: https://orcid.org/0009-0003-0414-7819
+    username: ~Yijia_Chu1
+  - emails: '****@student.bham.ac.uk'
+    first_name: Qiufeng
+    last_name: Yi
+    name: Qiufeng Yi
+    orcid: https://orcid.org/0000-0002-5611-5769
+    username: ~Qiufeng_Yi1
+  decision: '2025'
+  file: 1.pdf
+  id: 1
+  openreview_id: yOnvBDv7zL
+  pdf_file: 7e93c6b111a750a698cbd8743867ec22490df11d.pdf
+  title: 'Seeing Symbols, Missing Cultures: Probing Vision-Language Models'' Reasoning
+    on Fire Imagery and Cultural Meaning'
+- abstract: 'Abstract Meaning Representation (AMR) is a graph-based semantic representation
+    that has been incorporated into numerous downstream tasks, in particular due to
+    substantial efforts developing text-to-AMR parsing and AMR-to-text generation
+    models. However, there still exists a large gap between fluent, natural sentences
+    and texts generated from AMR-to-text generation models. Prompt-based Large Language
+    Models (LLMs), on the other hand, have demonstrated an outstanding ability to
+    produce fluent text in a variety of languages and domains. In this paper, we investigate
+    the extent to which LLMs can improve the AMR-to-text generated output fluency
+    post-hoc via prompt engineering. We conduct automatic and human evaluations of
+    the results, and ultimately have mixed findings: LLM-generated paraphrases generally
+    do not exhibit improvement in automatic evaluation, but outperform baseline texts
+    according to our human evaluation. Thus, we provide a detailed error analysis
+    of our results to investigate the complex nature of generating highly fluent text
+    from semantic representations.'
+  archival: true
   attributes:
-    paper_type: long
-    presentation_type: poster
-    submitted_area: Area 1
+    paper_length: Short (4 pages)
+    submission_type: Research Paper
   authors:
-  - first_name: Shikib
-    last_name: Mehri
-  - first_name: Maxine
-    last_name: Eskenazi
+  - emails: '****@amherst.edu'
+    first_name: Jiyuan
+    last_name: Ji
+    name: Jiyuan Ji
+    username: ~Jiyuan_Ji1
+  - dblp_id: https://dblp.org/pid/263/2502
+    emails: '****@gmail.com'
+    first_name: Shira
+    homepage: https://shirawein.github.io
+    institution: Amherst College
+    last_name: Wein
+    name: Shira Wein
+    orcid: https://orcid.org/0000-0002-1062-0866
+    username: ~Shira_Wein1
+  decision: '2025'
   file: 4.pdf
   id: 4
-  archival: False
-  title: Unsupervised Evaluation of Interactive Dialog with DialoGPT
-- abstract: For the past 15 years, in computer-supported collaborative learning applications,
-    conversational agents have been used to structure group interactions in online
-    chat-based environments. A series of experimental studies has provided an empirical
-    foundation for the design of chat-based conversational agents that significantly
-    improve learning over no-support control conditions and static-support control
-    conditions.  In this demo, we expand upon this foundation, bringing conversational
-    agents to structure group interaction into physical spaces, with the specific
-    goal of facilitating collaboration and learning in workplace scenarios.
+  openreview_id: pK1lfP0AMA
+  pdf_file: 29c279ed98fa0862dbc26c087a5b3909ad2bc3df.pdf
+  title: 'GPT4AMR: Does LLM-based Paraphrasing Improve AMR-to-text Generation Fluency?'
+- abstract: Multilingual Large Language Models (LLMs) are increasingly used worldwide,
+    making it essential to ensure they are free from gender bias to prevent representational
+    harm. While prior studies have examined such biases in high-resource languages,
+    low-resource languages remain understudied. In this paper, we propose a template-based
+    probing methodology, validated against real-world data, to uncover gender stereotypes
+    in LLMs. As part of this framework, we introduce the Domain-Specific Gender Skew
+    Index (DS-GSI), a metric that quantifies deviations from gender parity. We evaluate
+    four prominent models, GPT-4o mini, DeepSeek R1, Gemini 2.0 Flash, and Qwen QwQ
+    32B, across four semantic domains, focusing on Persian, a low-resource language
+    with distinct linguistic features. Our results show that all models exhibit gender
+    stereotypes, with greater disparities in Persian than in English across all domains.
+    Among these, sports reflect the most rigid gender biases. This study underscores
+    the need for inclusive NLP practices and provides a framework for assessing bias
+    in other low-resource languages.
+  archival: true
   attributes:
-    paper_type: short
-    presentation_type: poster
-    submitted_area: Area 2
+    paper_length: Short (4 pages)
+    submission_type: Research Paper
   authors:
-  - first_name: Yansen
-    last_name: Wang
-  - first_name: R.
-    last_name: Murray
-    middle_name: Charles
-  - first_name: Haogang
-    last_name: Bao
-  - first_name: Carolyn
-    last_name: Rose
-  file: 7.pdf
-  id: 7
-  archival: True
-  title: Agent-Based Dynamic Collaboration Support in a Smart Office Space
-- abstract: There is a growing interest in developing goal-oriented dialog systems
-    which serve users in accomplishing complex tasks through multi-turn conversations.
-    Although many methods are devised to evaluate and improve the performance of individual
-    dialog components, there is a lack of comprehensive empirical study on how different
-    components contribute to the overall performance of a dialog system. In this paper,
-    we perform a system-wise evaluation and present an empirical analysis on different
-    types of dialog systems which are composed of different modules in different settings.
-    Our results show that (1) a pipeline dialog system trained using fine-grained
-    supervision signals at different component levels often obtains better performance
-    than the systems that use joint or end-to-end models trained on coarse-grained
-    labels, (2) component-wise, single-turn evaluation results are not always consistent
-    with the overall performance of a dialog system, and (3) despite the discrepancy
-    between simulators and human users, simulated evaluation is still a valid alternative
-    to the costly human evaluation especially in the early stage of development.
-  attributes:
-    paper_type: short
-    presentation_type: oral
-    submitted_area: Area 3
-  authors:
-  - first_name: Ryuichi
-    last_name: Takanobu
-  - first_name: Qi
-    last_name: Zhu
-  - first_name: Jinchao
-    last_name: Li
-  - first_name: Baolin
-    last_name: Peng
-  - first_name: Jianfeng
-    last_name: Gao
-  - first_name: Minlie
-    last_name: Huang
-  file: 8.pdf
-  id: 8
-  archival: True
-  title: Is Your Goal-Oriented Dialog Model Performing Really Well? Empirical Analysis
-    of System-wise Evaluation
-- abstract: The differences in decision making between behavioural models of voice
-    interfaces are hard to capture using existing measures for the absolute performance
-    of such models. For instance, two models may have a similar task success rate,
-    but very different ways of getting there. In this paper, we propose a general
-    methodology to compute the similarity of two dialogue behaviour models and investigate
-    different ways of computing scores on both the semantic and the textual level.
-    Complementing absolute measures of performance, we test our scores on three different
-    tasks and show the practical usability of the measures.
-  attributes:
-    paper_type: short
-    presentation_type: oral
-    submitted_area: Area 2
-  authors:
-  - first_name: Stefan
-    last_name: Ultes
-  - first_name: Wolfgang
-    last_name: Maier
+  - dblp_id: https://dblp.org/pid/318/8551.html
+    emails: '****@illinois.edu'
+    first_name: Ghazal
+    google_scholar_id: https://scholar.google.com/citations?user=hhMHtcUAAAAJ&hl=en
+    institution: University of Tehran, University of Tehran
+    last_name: Kalhor
+    name: Ghazal Kalhor
+    orcid: https://orcid.org/0000-0002-6153-9048
+    semantic_scholar_id: https://www.semanticscholar.org/author/Ghazal-Kalhor/2161768554
+    username: ~Ghazal_Kalhor3
+  - dblp_id: https://dblp.org/pid/52/3356
+    emails: '****@teias.institute'
+    first_name: Behnam
+    google_scholar_id: https://scholar.google.com/citations?user=1IdcoLMAAAAJ&hl=en
+    institution: Tehran Institute for Advanced Studies
+    last_name: Bahrak
+    name: Behnam Bahrak
+    orcid: https://orcid.org/0000-0003-4429-2511
+    semantic_scholar_id: https://www.semanticscholar.org/author/B.-Bahrak/2860215
+    username: ~Behnam_Bahrak2
+  decision: '2025'
   file: 9.pdf
   id: 9
-  archival: True
-  title: Similarity Scoring for Dialogue Behaviour Comparison
-- abstract: 'Acoustic/prosodic (a/p) entrainment has been associated with multiple
-    positive social aspects of human-human conversations. However, research on its
-    effects is still preliminary, first because how to model it is far from standardized,
-    and second because most of the reported findings rely on small corpora or on corpora
-    collected in experimental setups. The present article has a twofold purpose:  1)
-    it proposes a unifying statistical framework for modeling a/p entrainment, and
-    2) it tests on two large corpora of spontaneous telephone interactions whether
-    three metrics derived from this framework predict positive social aspects of the
-    conversations. The corpora differ in their spoken language, domain, and positive
-    social outcome attached. To our knowledge, this is the first article studying
-    relations between a/p entrainment and positive social outcomes in such large corpora
-    of spontaneous dialog. Our results suggest that our metrics effectively predict,
-    up to some extent, positive social aspects of conversations, which not only validates
-    the methodology, but also provides further insights into the elusive topic of
-    entrainment in human-human conversation.'
+  openreview_id: axtJnsarto
+  pdf_file: 570cbb62692f4aeff8f2b1e0e218e954bf32c4b0.pdf
+  title: 'Probing Gender Bias in Multilingual LLMs: A Case Study of Stereotypes in
+    Persian'
+- abstract: 'Recent works have analyzed the impact of individual components of neural
+    networks on gendered predictions, often with a focus on mitigating gender bias.
+    However, mechanistic interpretations of gender tend to (i) focus on a very specific
+    gender-related task, such as gendered pronoun prediction, or (ii) fail to distinguish
+    between the production of \textit{factually gendered outputs} (the correct assumption
+    of gender given a word that carries gender as a semantic property) and \textit{gender
+    biased outputs} (based on a stereotype). To address these issues, we curate GKnow,
+    a benchmark to assess gender knowledge and gender bias in autoregressive models
+    across different types of gender-related predictions. GKnow allows us to identify
+    and analyze the neurons responsible for gendered predictions. We test the impact
+    of neuron ablation on benchmarks for disentangling stereotypical and factual gender
+    (DiFair and the test set of \gknow), as well as StereoSet. Results show that gender
+    bias and factual gender are
+
+    severely entangled on a neuron level, indicating that neuron
+
+    ablation is an unreliable debiasing method. Furthermore,
+
+    benchmarks for evaluating gender bias can hide the decrease
+
+    in factual gender knowledge that accompanies neuron
+
+    ablation. We curate GKnow as a contribution to the
+
+    continuous development of robust gender bias benchmarks.'
+  archival: false
   attributes:
-    paper_type: short
-    presentation_type: oral
-    submitted_area: Area 3
+    paper_length: Short (4 pages)
+    submission_type: Research Paper
   authors:
-  - first_name: Ramiro
-    last_name: "G\xE1lvez"
-    middle_name: H.
-  - first_name: Lara
-    last_name: Gauder
-  - first_name: Jordi
-    last_name: Luque
-  - first_name: "Agust\xEDn"
-    last_name: Gravano
+  - emails: '****@cis.lmu.de'
+    first_name: Leonor
+    homepage: https://www.linkedin.com/in/leonor-veloso/
+    institution: Ludwig-Maximilians-Universität München
+    last_name: Veloso
+    name: Leonor Veloso
+    username: ~Leonor_Veloso1
+  - dblp_id: https://dblp.org/pid/s/HinrichSchutze
+    emails: '****@cis.lmu.de'
+    first_name: Hinrich
+    homepage: https://www.cis.uni-muenchen.de/schuetze/
+    last_name: Schuetze
+    name: Hinrich Schuetze
+    username: ~Hinrich_Schuetze3
+  decision: '2025'
+  file: 10.pdf
+  id: 10
+  openreview_id: Ju0i3qQTS0
+  pdf_file: 3ad9b5e72fc2cc88b7877b85fcd578648df423f2.pdf
+  title: 'GKnow: A Dataset for Measuring the Neuron-Level Entanglement of Gender Bias
+    and Factual Gender'
+- abstract: An automatic court hearing transcription system is being developed for
+    the Federal Supreme Court of Ethiopia to address the challenges faced in manual
+    transcription. By utilizing Automatic Speech Recognition technology, the system
+    aims to transcribe Amharic language court recordings accurately and efficiently.
+    This innovative solution not only improves the court system but also safeguards
+    the health of transcribers and enhances the overall speed and quality of legal
+    proceedings in Ethiopia. In this study, a self-supervised Transformer based Wave2Vec
+    2.0 approach has been conducted to build an ASR system. With a dataset comprising
+    over 500 hours of unlabeled data, the system has achieved a remarkable Word Error
+    Rate (WER) of 14.36%, showcasing its effectiveness in transcribing court proceedings
+    with high accuracy.
+  archival: false
+  attributes:
+    paper_length: Extended Abstract (2 pages)
+    submission_type: Research Paper
+  authors:
+  - emails: '****@gmail.com'
+    first_name: Abel
+    institution: Arba Minch University
+    last_name: Alemu
+    middle_name: Mulat
+    name: ABEL MULAT ALEMU
+    username: ~ABEL_MULAT_ALEMU1
+  - emails: '****@gmail.com'
+    first_name: Rahel
+    last_name: Tamiru
+    middle_name: Mekonen
+    name: Rahel Mekonen Tamiru
+    username: ~Rahel_Mekonen_Tamiru1
+  decision: '2025'
   file: 11.pdf
   id: 11
-  archival: True
-  title: 'A unifying framework for modeling acoustic/prosodic entrainment: definition
-    and evaluation on two large corpora'
-- abstract: In this work, we study collaborative online conversations. Such conversations
-    are rich in content, constructive and motivated by a shared goal. Automatically
-    identifying such conversations requires modeling complex discourse behaviors,
-    which characterize the flow of information, sentiment and community structure
-    within discussions. To help capture these behaviors, we define a hybrid relational
-    model in which relevant discourse behaviors are formulated as discrete latent
-    variables and scored using neural networks. These variables provide the information
-    needed for predicting the overall collaborative characterization of the entire
-    conversational thread. We show that adding inductive bias in the form of latent
-    variables results in performance improvement, while providing a natural way to
-    explain the decision.
+  openreview_id: VOp4qMC5uN
+  pdf_file: 997bb22b3db64ce28771cb84ec9123d6da186a7d.pdf
+  title: Wav2Vec-Based Self-Supervised Learning for Court Hearing Transcription
+- abstract: Most resources for evaluating social biases in Large Language Models are
+    developed without co-design from the communities affected by these biases, and
+    rarely involve participatory approaches. We introduce HESEIA, a dataset of 46,499
+    sentences created in a teacher professional development course. The course involved
+    370 high-school teachers and 5,370 students from 189 Latin-American schools. Unlike
+    existing benchmarks, HESEIA captures intersectional biases across multiple demographic
+    axes and school subjects. It reflects local contexts through the lived experience
+    and pedagogical expertise of educators. Teachers used minimal pairs to create
+    sentences that express stereotypes relevant to their school subjects and communities.
+    We show the dataset diversity in term of the types of biases represented and also
+    in terms of the knowledge areas included. We demonstrate that the dataset contains
+    more stereotypes unrecognized by current LLMs than previous datasets, potentially
+    making bias mitigation by self-debiasing harder. HESEIA is available to support
+    bias assessments grounded in educational communities.
+  archival: false
   attributes:
-    paper_type: long
-    presentation_type: oral
-    submitted_area: Area 3
+    paper_length: Short (4 pages)
+    submission_type: Research Paper
   authors:
-  - first_name: Ayush
-    last_name: Jain
-  - first_name: Maria
-    last_name: Pacheco
-  - first_name: Steven
-    last_name: Lancette
-  - first_name: Mahak
-    last_name: Goindani
-  - first_name: Dan
-    last_name: Goldwasser
+  - dblp_id: https://dblp.org/pid/375/8426
+    emails: '****@mi.unc.edu.ar'
+    first_name: Guido
+    google_scholar_id: https://scholar.google.com/citations?hl=en&user=_QA3Hs4AAAAJ
+    institution: Universidad Nacional de Córdoba
+    last_name: Ivetta
+    name: Guido Ivetta
+    orcid: https://orcid.org/0009-0006-3248-1461
+    semantic_scholar_id: https://www.semanticscholar.org/author/Guido-Ivetta/2213060824
+    username: ~Guido_Ivetta1
+  - emails: '****@unc.edu.ar'
+    first_name: Marcos
+    google_scholar_id: https://scholar.google.com.ar/citations?user=FTHzyOEAAAAJ&hl=en
+    last_name: Gomez
+    middle_name: J
+    name: Marcos J Gomez
+    username: ~Marcos_J_Gomez1
+  - emails: '****@mi.unc.edu.ar'
+    first_name: Sofía
+    last_name: Martinelli
+    name: Sofía Martinelli
+    username: ~Sofía_Martinelli1
+  - emails: '****@mi.unc.edu.ar'
+    first_name: Pietro
+    last_name: Palombini
+    name: Pietro Palombini
+    username: ~Pietro_Palombini1
+  - emails: '****@unc.edu.ar'
+    first_name: M
+    google_scholar_id: https://scholar.google.es/citations?user=T2IZhO4AAAAJ&hl=es
+    homepage: https://www.conicet.gov.ar/new_scp/detalle.php?id=46531&datos_academicos=yes
+    institution: Universidad Nacional de Córdoba
+    last_name: Echeveste
+    middle_name: Emilia
+    name: M Emilia Echeveste
+    orcid: https://orcid.org/0000-0001-8338-0384
+    username: ~M_Emilia_Echeveste1
+  - emails: '****@gmail.com'
+    first_name: Nair
+    homepage: https://ia.vialibre.org.ar/
+    institution: Fundación Vía Libre
+    last_name: Mazzeo
+    middle_name: Carolina
+    name: Nair Carolina Mazzeo
+    username: ~Nair_Carolina_Mazzeo2
+  - emails: '****@uba.ar'
+    first_name: Beatriz
+    institution: Universidad Torcuato di Tella and Universidad de Buenos Aires
+    last_name: Busaniche
+    name: Beatriz Busaniche
+    orcid: https://orcid.org/0009-0005-9932-3022
+    username: ~Beatriz_Busaniche1
+  - dblp_id: https://dblp.org/pid/22/1403
+    emails: '****@unc.edu.ar'
+    first_name: Luciana
+    google_scholar_id: https://scholar.google.com/citations?user=MHvcOG0AAAAJ&hl=es
+    homepage: https://benotti.github.io/
+    institution: 'Universidad nacional de Córdoba '
+    last_name: Benotti
+    name: Luciana Benotti
+    orcid: https://orcid.org/0000-0001-7456-4333
+    semantic_scholar_id: https://www.semanticscholar.org/author/Luciana-Benotti/3131683?sort=pub-date
+    username: ~Luciana_Benotti1
+  decision: '2025'
   file: 12.pdf
   id: 12
-  archival: True
-  title: Identifying Collaborative Conversations using Latent Discourse Behaviors
-- abstract: Reinforcement learning (RL) methods have been widely used for learning
-    dialog policies. Sample efficiency, i.e., the efficiency of learning from limited
-    dialog experience, is particularly important in RL-based dialog policy learning,
-    because interacting with people is costly and low-quality dialog policies produce
-    very poor user experience. In this paper, we develop LHUA (Learning with Hindsight,
-    User modeling, and Adaptation) that, for the first time, enables dialog agents
-    to adaptively learn with hindsight from both simulated and real users. Simulation
-    and hindsight provide the dialog agent with more experience and more (positive)
-    reinforcement respectively. Experimental results suggest that LHUA outperforms
-    competitive baselines from the literature, including its no-simulation, no-adaptation,
-    and no-hindsight counterparts.
+  openreview_id: zEsBIsiaSO
+  pdf_file: 3bb9b6bdcd616cbc6c2c93949bca7c3bc13fd8f7.pdf
+  title: An intersectional bias evaluation dataset grounded in educational contexts
+- abstract: In this study, we investigate how author affiliation shapes academic discourse,
+    proposing it as an effective proxy for author perspective in understanding what
+    topics are studied, how nations are framed, and whose realities are prioritised.
+    Using Palestine as a case study, we apply BERTopic and Structural Topic Modelling
+    (STM) to 29,536 English-language academic articles collected from the OpenAlex
+    database. We find that domestic authors focus on practical, local issues like
+    healthcare, education, and the environment, while foreign authors emphasise legal,
+    historical, and geopolitical discussions. These differences, in our interpretation,
+    reflect lived proximity to war and crisis. We also note that while BERTopic captures
+    greater lexical nuance, STM enables covariate-aware comparisons, offering deeper
+    insight into how affiliation correlates with thematic emphasis. We propose extending
+    this framework to other underrepresented countries, including a future study focused
+    on Gaza post-October 7.
+  archival: true
   attributes:
-    paper_type: short
-    presentation_type: poster
-    submitted_area: Area 2
+    paper_length: Short (4 pages)
+    submission_type: Research Paper
   authors:
-  - first_name: Yan
-    last_name: Cao
-  - first_name: Keting
-    last_name: Lu
-  - first_name: Xiaoping
-    last_name: Chen
-  - first_name: Shiqi
-    last_name: Zhang
+  - emails: '****@kaist.ac.kr'
+    first_name: Maida
+    institution: Korea Advanced Institute of Science & Technology
+    last_name: Aizaz
+    name: Maida Aizaz
+    username: ~Maida_Aizaz1
+  - emails: '****@kaist.ac.kr'
+    first_name: Taegyoon
+    google_scholar_id: https://scholar.google.com/citations?view_op=list_works&hl=en&authuser=2&user=QRphKMcAAAAJ&gmla=AJsN-F42Bgxo9pb7FriSFnrwWKpfRcwajhi9gxcktX2Wh2uaZrjhjhfUTvNgoiF4gyABtOVFgefdcKT7e2gg8I3arMKH3cnzFeGBBeuj4uGJDECko3sf1eZdiGrHiuonxABXIHz5BW2_
+    homepage: https://taegyoon-kim.github.io
+    institution: KAIST
+    last_name: Kim
+    name: Taegyoon Kim
+    username: ~Taegyoon_Kim2
+  - emails: '****@kaist.ac.kr'
+    first_name: Lanu
+    google_scholar_id: https://scholar.google.com/citations?user=77i0fdMAAAAJ&hl=en&oi=ao
+    homepage: https://lanukim.github.io
+    institution: Korea Advanced Institute of Science & Technology
+    last_name: Kim
+    name: Lanu Kim
+    orcid: https://orcid.org/0000-0002-7381-4959
+    username: ~Lanu_Kim1
+  decision: '2025'
+  file: 13.pdf
+  id: 13
+  openreview_id: LdAeTi9f6o
+  pdf_file: ac6e66f23822fcb034be889588f6db0570ac7f31.pdf
+  title: Whose Palestine Is It? A Topic Modelling Approach to National Framing in
+    Academic Research
+- abstract: Named Entity Recognition (NER) is the information extraction task of identifying
+    predefined named entities such as person names, location names, organization names
+    and more. High-resource languages have made significant progress in NER tasks.
+    However, low-resource languages such as Kurmanji Kurdish have not seen the same
+    advancements, due to these languages having less available data online. This research
+    aims to close this gap by developing an NER system via fine-tuning XLM-RoBERTa
+    on a manually annotated dataset for Kurmanji. The dataset used for fine-tuning
+    consists of 7,919 annotated sentences, which were manually annotated by three
+    native Kurmanji speakers. The classes labeled in the dataset are Person (PER),
+    Organization (ORG), and Location (LOC). A web-based application has also been
+    developed using Streamlit to make the model more accessible. The model achieved
+    an F1 score of 0.8735, precision of 0.8668, and recall of 0.8803, demonstrating
+    the effectiveness of fine-tuning transformer-based models for NER tasks in low-resource
+    languages. This work establishes a methodology that can be applied to other low-resource
+    languages and Kurdish varieties.
+  archival: true
+  attributes:
+    paper_length: Short (4 pages)
+    submission_type: Research Paper
+  authors:
+  - emails: '****@rgu.ac.uk'
+    first_name: Hossein
+    google_scholar_id: https://scholar.google.com/citations?user=SoYcEooAAAAJ&hl=en
+    homepage: https://www.ukh.edu.krd/faculty/hossein-hassani/
+    institution: University of Kurdistan Hewlêr
+    last_name: Hassani
+    name: Hossein Hassani
+    orcid: https://orcid.org/0000-0002-8899-4016
+    username: ~Hossein_Hassani2
+  decision: '2025'
   file: 16.pdf
   id: 16
-  archival: True
-  title: Adaptive Dialog Policy Learning with Hindsight and User Modeling
-- abstract: We study the problem of schema discovery for knowledge graphs. We propose
-    a solution where an agent engages in multi-turn dialog with an expert for this
-    purpose. Each mini-dialog focuses on a short natural language statement, and looks
-    to elicit the expert's desired schema-based interpretation of that statement,
-    taking into account possible augmentations to the schema. The overall schema evolves
-    by performing dialog over a collection of such statements. We take into account
-    the probability that the expert does not respond to a query, and model this probability
-    as a function of the complexity of the query. For such mini-dialogs with response
-    uncertainty, we propose a dialog strategy that looks to elicit the schema over
-    as short a dialog as possible. By combining the notion of uncertainty sampling
-    from active learning with generalized binary search, the strategy asks the query
-    with the highest expected reduction of entropy. We show that this significantly
-    reduces dialog complexity while engaging the expert in meaningful dialog.
+  openreview_id: 8VRf9YoGm9
+  pdf_file: 1f2ce6430a765024353856bee9cd31dc6736e8a3.pdf
+  title: Fine-tuning XLM-RoBERTa for Named Entity Recognition in Kurmanji Kurdish
+- abstract: "Capability evaluation of large language models (LLMs) is increasingly\
+    \ complicated by rising concerns of data contamination that cast doubts on whether\
+    \ static benchmarks measure genuine reasoning or mere memorization.\nTo move beyond\
+    \ publicly sourced questions, we introduce a fully automated, infinitely scalable\
+    \ framework that synthesizes research-level questions directly from arXiv papers,\
+    \ harnessing the natural temporal structure of research publications where performance\
+    \ decay after knowledge cutoffs may indicate potential contamination. \nWe evaluated\
+    \ 8 frontier models from 4 families with different knowledge cutoff dates on 1,643\
+    \ multi-step reasoning questions synthesized from 20,277 arXiv papers stratified\
+    \ monthly over 2 years, covering at least 6 months before and after their knowledge\
+    \ cutoff dates. \nOur results consistently showed no significant performance decay\
+    \ near knowledge cutoff dates for models of various sizes, developers, and release\
+    \ dates. \nBy comparing with other longitudinal studies that retrieve public questions\
+    \ directly and observe significant post-cutoff performance decay, we hypothesize\
+    \ that the multi-step reasoning required by our synthesis pipeline mitigates contamination\
+    \ by demanding deeper understanding than shallow pattern-matching. \nWe validate\
+    \ that reasoning-driven synthesis from research papers serves as both a robust\
+    \ capability probe and an effective mitigation strategy against benchmark contamination,\
+    \ enabling more faithful assessment of genuine reasoning capabilities at scale.\n\
+    We will open source our code and datasets after peer review to facilitate reproducibility\
+    \ and promote the adoption of contamination-resistant evaluation methods."
+  archival: false
   attributes:
-    paper_type: long
-    presentation_type: poster
-    submitted_area: Area 3
+    paper_length: Short (4 pages)
+    submission_type: Research Paper
   authors:
-  - first_name: Subhasis
-    last_name: Ghosh
-  - first_name: Arpita
-    last_name: Kundu
-  - first_name: Aniket
-    last_name: Pramanick
-  - first_name: Indrajit
-    last_name: Bhattacharya
+  - dblp_id: https://dblp.org/pid/408/5364
+    emails: '****@ethz.ch'
+    first_name: Terry
+    google_scholar_id: https://scholar.google.co.uk/citations?hl=en&user=hFY4t8gAAAAJ
+    homepage: https://terry-zhang.notion.site/
+    last_name: Zhang
+    middle_name: Jingchen
+    name: Terry Jingchen Zhang
+    orcid: https://orcid.org/0009-0009-1271-4696
+    semantic_scholar_id: https://www.semanticscholar.org/author/Terry-Jingchen-Zhang/2363686592
+    username: ~Terry_Jingchen_Zhang1
+  - emails: '****@ee.iitr.ac.in'
+    first_name: Gopal
+    institution: Max-Planck Institute
+    last_name: Dev
+    name: Gopal Dev
+    username: ~Gopal_Dev1
+  - emails: '****@ethz.ch'
+    first_name: Ning
+    homepage: https://ethz.ch/de.html
+    last_name: Wang
+    name: Ning Wang
+    username: ~Ning_Wang33
+  - emails: '****@seas.upenn.edu'
+    first_name: Nicole
+    last_name: Ni
+    name: Nicole Ni
+    username: ~Nicole_Ni1
+  - emails: '****@student.ethz.ch'
+    first_name: Wenyuan
+    homepage: https://github.com/jwyjohn
+    institution: ETHZ - ETH Zurich
+    last_name: Jiang
+    name: Wenyuan Jiang
+    orcid: https://orcid.org/0000-0003-4646-7960
+    username: ~Wenyuan_Jiang4
+  - dblp_id: https://dblp.org/pid/229/4267
+    emails: '****@cs.toronto.edu'
+    first_name: Zhijing
+    google_scholar_id: https://scholar.google.com/citations?user=Mdr6wjUAAAAJ&hl=en
+    homepage: https://zhijing-jin.com
+    institution: Department of Computer Science, University of Toronto
+    last_name: Jin
+    name: Zhijing Jin
+    orcid: https://orcid.org/0000-0003-0238-9024
+    semantic_scholar_id: https://www.semanticscholar.org/author/Zhijing-Jin/8752221
+    username: ~Zhijing_Jin1
+  decision: '2025'
   file: 17.pdf
   id: 17
-  archival: True
-  title: Discovering Knowledge Graph Schema from Short Natural Language Text via Dialog
-- abstract: We describe an attentive listening system for the autonomous android robot
-    ERICA.
+  openreview_id: r95XbeSspr
+  pdf_file: e63a13c1cc784f08e2cfc33c98da697d331c2557.pdf
+  title: 'Beyond Memorization: Reasoning-Driven Synthesis as a Mitigation Strategy
+    Against Benchmark Contamination'
+- abstract: As Large Language Models (LLMs) are deployed in every aspect of our lives,
+    understanding how they reason about moral issues becomes critical for AI safety.
+    We investigate this using a dataset we curated from Reddit's r/AmItheAsshole,
+    comprising real-world moral dilemmas with crowd-sourced verdicts. Through experiments
+    on five state-of-the-art LLMs across 847 posts, we find a significant and systematic
+    divergence where LLMs are more lenient than humans. Moreover, we find that translating
+    the posts into another language changes LLMs' verdicts, indicating their judgments
+    lack cross-lingual stability.
+  archival: true
   attributes:
-    paper_type: long
-    presentation_type: oral
-    submitted_area: Area 1
+    paper_length: Extended Abstract (2 pages)
+    submission_type: Research Paper
   authors:
-  - first_name: Koji
-    last_name: Inoue
-  - first_name: Divesh
-    last_name: Lala
-  - first_name: Kenta
-    last_name: Yamamoto
-  - first_name: Shizuka
-    last_name: Nakamura
-  - first_name: Katsuya
-    last_name: Takanashi
-  - first_name: Tatsuya
-    last_name: Kawahara
+  - emails: '****@ugent.be'
+    first_name: Nan
+    google_scholar_id: https://scholar.google.com/citations?user=kCwzupoAAAAJ&hl=en
+    homepage: https://research.ugent.be/web/person/nan-li-0/en
+    institution: Universiteit Gent
+    last_name: Li
+    name: Nan Li
+    orcid: https://orcid.org/0000-0002-9963-7794
+    username: ~Nan_Li4
+  - dblp_id: https://dblp.org/pid/26/4533
+    emails: '****@ugent.be'
+    first_name: Bo
+    google_scholar_id: https://scholar.google.com/citations?user=_DxP-KUAAAAJ
+    homepage: https://bokang.io
+    institution: Ghent University
+    last_name: Kang
+    name: Bo Kang
+    orcid: https://orcid.org/0000-0002-9895-9927
+    username: ~Bo_Kang1
+  - dblp_id: https://dblp.org/pid/49/2018
+    emails: '****@ugent.be'
+    first_name: Tijl
+    google_scholar_id: https://scholar.google.be/citations?user=eH_c4R4AAAAJ&hl=en
+    homepage: http://www.tijldebie.net
+    institution: Ghent University
+    last_name: De Bie
+    name: Tijl De Bie
+    orcid: https://orcid.org/0000-0002-2692-7504
+    username: ~Tijl_De_Bie1
+  decision: '2025'
   file: 18.pdf
   id: 18
-  archival: True
-  title: 'An Attentive Listening System with Android ERICA: Comparison of Autonomous
-    and WOZ Interactions'
-- abstract: Neural encoder-decoder models have shown promising performance for human-computer
-    dialogue systems over the past few years. However, due to the maximum-likelihood
-    objective for the decoder, the generated responses are often universal and safe
-    to the point that they lack meaningful information and are no longer relevant
-    to the post. To address this, in this paper, we propose semantic guidance using
-    reinforcement learning to ensure that the generated responses indeed include the
-    given or predicted semantics and that these semantics do not appear repeatedly
-    in the response. Synsets, which comprise sets of manually defined synonyms, are
-    used as the form of assigned semantics. For a
+  openreview_id: naVVdqKUzO
+  pdf_file: 11ddd7b23f6cf848b698c805b7da56085253c94a.pdf
+  title: 'Human-AI Moral Judgment Congruence on Real-World Scenarios: A Cross-Lingual
+    Analysis'
+- abstract: 'The Nüshu script, originating from Jiangyong County, China, is the world’s
+    only known writing system historically created and used exclusively by women.
+    Although Natural Language Processing (NLP) efforts have begun digitizing limited
+    Nüshu-Chinese text pairs, computational access to the script remains highly restricted
+    due to its handwritten, visual nature and absence of multimodal tools. We contribute
+    two novel datasets: NüshuVision, an image corpus of 500 rendered sentences in
+    traditional vertical, right-to-left orthography, and NüshuStrokes, the first sequential
+    handwriting recordings of all 397 Unicode Nüshu characters by an expert calligrapher.
+    Benchmarking five leading Chinese OCR systems on NüshuVision shows a consistent
+    Character Error Rate (CER) of 1.0. Fine-tuning Microsoft’s TrOCR model reduces
+    CER to 0.67. These resources mark a crucial step toward multimodal processing
+    of Nüshu and present a new paradigm for culturally sensitive language revitalization.'
+  archival: false
   attributes:
-    paper_type: short
-    presentation_type: oral
-    submitted_area: Area 1
+    paper_length: Short (4 pages)
+    submission_type: Research Paper
   authors:
-  - first_name: Cheng-Hsun
-    last_name: Hsueh
-  - first_name: Wei-Yun
-    last_name: Ma
+  - dblp_id: https://dblp.org/pid/378/1026
+    emails: '****@dartmouth.edu'
+    first_name: Ivory
+    google_scholar_id: https://scholar.google.com/citations?user=WotNdpkAAAAJ&hl=en
+    homepage: https://ivoryayang.github.io/
+    last_name: Yang
+    name: Ivory Yang
+    semantic_scholar_id: https://www.semanticscholar.org/author/Ivory-Yang/2303404198
+    username: ~Ivory_Yang1
+  - dblp_id: https://dblp.org/pid/14/2107
+    emails: '****@gmail.com'
+    first_name: Xiaobo
+    google_scholar_id: https://scholar.google.com/citations?user=z9rwAaIAAAAJ&hl=en
+    last_name: Guo
+    name: Xiaobo Guo
+    orcid: https://orcid.org/0000-0002-6817-626X
+    username: ~Xiaobo_Guo1
+  - dblp_id: https://dblp.org/pid/68/1041-6
+    emails: '****@dartmouth.edu'
+    first_name: Yuxin
+    google_scholar_id: https://scholar.google.com/citations?user=T2S8PdUAAAAJ
+    homepage: https://audreyw.top/AboutMe
+    last_name: Wang
+    name: Yuxin Wang
+    orcid: https://orcid.org/0000-0001-5205-0518
+    username: ~Yuxin_Wang7
+  - dblp_id: https://dblp.org/pid/351/3944
+    emails: '****@dartmouth.edu'
+    first_name: Hefan
+    google_scholar_id: https://scholar.google.com/citations?hl=en&user=wRwevIkAAAAJ
+    homepage: https://hf-heaven.github.io/
+    institution: Dartmouth College
+    last_name: Zhang
+    name: Hefan Zhang
+    orcid: https://orcid.org/0009-0004-0879-6872
+    semantic_scholar_id: https://www.semanticscholar.org/author/Hefan-Zhang/2297675380
+    username: ~Hefan_Zhang1
+  - dblp_id: https://dblp.org/pid/353/7715
+    emails: '****@dartmouth.edu'
+    first_name: Yaning
+    google_scholar_id: https://scholar.google.com/citations?view_op=list_works&hl=en&user=OrsUhUQAAAAJ
+    homepage: https://www.hust.edu.cn/xxgk/xxjj.htm
+    last_name: Jia
+    name: Yaning Jia
+    username: ~Yaning_Jia2
+  - emails: '****@dartmouth.edu'
+    first_name: William
+    last_name: Dinauer
+    name: William Dinauer
+    username: ~William_Dinauer2
+  - dblp_id: https://dblp.org/pid/01/1709
+    emails: '****@dartmouth.edu'
+    first_name: Soroush
+    google_scholar_id: https://scholar.google.com/citations?user=45DAXkwAAAAJ&hl=en&oi=ao
+    homepage: https://www.cs.dartmouth.edu/~soroush/
+    institution: Dartmouth College
+    last_name: Vosoughi
+    name: Soroush Vosoughi
+    orcid: https://orcid.org/0000-0002-2564-8909
+    semantic_scholar_id: https://www.semanticscholar.org/author/Soroush-Vosoughi/1918441
+    username: ~Soroush_Vosoughi1
+  decision: '2025'
+  file: 19.pdf
+  id: 19
+  openreview_id: iWALAj6N2C
+  pdf_file: 8620ba3a0d931395ab8171fb19842a9c4f0efc63.pdf
+  title: Revitalizing Nüshu Through Mixed Media
+- abstract: This paper focuses on data-driven dependency parsing for Vedic Sanskrit.
+    We propose and evaluate a transfer learning approach that benefits from syntactic
+    analysis of typologically related languages, including Ancient Greek and Latin,
+    and a descendant language - Classical Sanskrit. Experiments on the Vedic TreeBank
+    demonstrate the effectiveness of cross-lingual transfer, demonstrating improvements
+    from the biaffine baseline as well as outperforming the current state of the art
+    benchmark, the deep contextualised self-training algorithm, across a wide range
+    of experimental setups.
+  archival: true
+  attributes:
+    paper_length: Short (4 pages)
+    submission_type: Research Paper
+  authors:
+  - emails: '****@gmail.com'
+    first_name: Abhiram
+    homepage: https://ramstar3000.github.io/Portfolio/
+    last_name: Vinjamuri
+    name: Abhiram Vinjamuri
+    username: ~Abhiram_Vinjamuri1
+  - dblp_id: https://dblp.org/pid/63/6566
+    emails: '****@cam.ac.uk'
+    first_name: Weiwei
+    google_scholar_id: https://scholar.google.com/citations?user=FDtr1fkAAAAJ&hl=en
+    homepage: https://www.cl.cam.ac.uk/~ws390/
+    institution: University of Cambridge
+    last_name: Sun
+    name: Weiwei Sun
+    username: ~Weiwei_Sun6
+  decision: '2025'
+  file: 20.pdf
+  id: 20
+  openreview_id: Iv9zhxakjV
+  pdf_file: 0c40ee83d8ad083ff59e08915cfa8e8913f95059.pdf
+  title: Transfer learning for dependency parsing of Vedic Sanskrit
+- abstract: Political stance detection in low-resource and culturally complex settings
+    poses a critical challenge for large language models (LLMs). In the Thai political
+    landscape—rich with indirect expressions, polarized figures, and sentiment-stance
+    entanglement—LLMs often exhibit systematic biases, including sentiment leakage
+    and entity favoritism. These biases not only compromise model fairness but also
+    degrade predictive reliability in real-world applications. We introduce ThaiFACTUAL,
+    a lightweight, model-agnostic calibration framework that mitigates political bias
+    without fine-tuning LLMs. ThaiFACTUAL combines counterfactual data augmentation
+    with rationale-based supervision to disentangle sentiment from stance and neutralize
+    political preferences. We curate and release the first high-quality Thai political
+    stance dataset with stance, sentiment, rationale, and bias markers across diverse
+    political entities and events. Our results show that ThaiFACTUAL substantially
+    reduces spurious correlations, improves zero-shot generalization, and enhances
+    fairness across multiple LLMs. This work underscores the need for culturally grounded
+    bias mitigation and offers a scalable blueprint for debiasing LLMs in politically
+    sensitive, underrepresented languages.
+  archival: true
+  attributes:
+    paper_length: Short (4 pages)
+    submission_type: Research Paper
+  authors:
+  - emails: '****@student.chula.ac.th'
+    first_name: Kasidit
+    last_name: Sermsri
+    name: Kasidit Sermsri
+    username: ~Kasidit_Sermsri1
+  - dblp_id: https://dblp.org/pid/201/6162
+    emails: '****@gmail.com'
+    first_name: Teerapong
+    google_scholar_id: https://scholar.google.co.th/citations?user=myy0qDgAAAAJ&hl=en
+    homepage: https://kaopanboonyuen.github.io/
+    institution: MARSAIL (Motor AI Recognition Solution Artificial Intelligence Laboratory)  and
+      Chulalongkorn University
+    last_name: Panboonyuen
+    name: Teerapong Panboonyuen
+    orcid: https://orcid.org/0000-0001-8464-4476
+    semantic_scholar_id: https://www.semanticscholar.org/author/Teerapong-Panboonyuen/18098518
+    username: ~Teerapong_Panboonyuen1
+  decision: '2025'
+  file: 21.pdf
+  id: 21
+  openreview_id: 0svVPSuUVw
+  pdf_file: 63d5085309d37d36631a31d8b192aa2bfe1d1763.pdf
+  title: Debiasing Large Language Models in Thai Political Stance Detection via Counterfactual
+    Calibration
+- abstract: Large language models (LLMs) have significantly advanced automated code
+    generation and debugging, facilitating powerful multi-agent coding frameworks.
+    However, deploying these sophisticated models on resource-constrained edge devices
+    remains challenging due to high computational demands, limited adaptability, and
+    significant privacy risks associated with cloud-based processing. Motivated by
+    these constraints, we propose \textbf{Edge Code Cloak Coder (ECCC)}, a novel edge-cloud
+    hybrid framework integrating lightweight quantized LLM with robust AST-based anonymization
+    and edge-side privacy validation. ECCC enables high-performance, privacy-preserving
+    LLM capabilities on consumer GPUs, anonymizing user code before securely delegating
+    abstracted tasks to cloud LLMs. Experimental evaluations demonstrate that ECCC
+    achieves competitive correctness (within 4–5pp of the GPT-4-based frameworks)
+    and a perfect privacy score of 10/10, effectively balancing functionality and
+    security for sensitive and proprietary code applications.
+  archival: true
+  attributes:
+    paper_length: Short (4 pages)
+    submission_type: Research Paper
+  authors:
+  - emails: '****@mail2.sysu.edu.cn'
+    first_name: Haoqi
+    last_name: He
+    name: Haoqi He
+    orcid: https://orcid.org/0009-0007-8646-8593
+    username: ~Haoqi_He1
+  - emails: '****@mail2.sysu.edu.cn'
+    first_name: Wenzhi
+    homepage: https://azzz-nirvana.github.io
+    last_name: Xu
+    name: Wenzhi Xu
+    username: ~Wenzhi_Xu2
+  - emails: '****@mail2.sysu.edu.cn'
+    first_name: Ruoying
+    homepage: https://yeliaaa.github.io/
+    institution: SUN YAT-SEN UNIVERSITY
+    last_name: Liu
+    name: Ruoying Liu
+    username: ~Ruoying_Liu1
+  - emails: '****@gmail.com'
+    first_name: Jiarui
+    institution: Chengdu University
+    last_name: Tang
+    name: Jiarui Tang
+    username: ~Jiarui_Tang1
+  - emails: '****@163.com'
+    first_name: Bairu
+    homepage: https://canvas.gsa.ac.uk/about/18264
+    last_name: Li
+    name: Bairu Li
+    username: ~Bairu_Li1
+  - emails: '****@mail2.sysu.edu.cn'
+    first_name: Xiaokai
+    homepage: https://github.com/D3v3nlxk
+    last_name: Lin
+    name: Xiaokai Lin
+    username: ~Xiaokai_Lin1
+  decision: '2025'
   file: 22.pdf
   id: 22
-  archival: True
-  title: Semantic Guidance of Dialogue Generation with Reinforcement Learning
-- abstract: The present study aims to examine the prevalent notion that people entrain
-    to the vocabulary of a dialogue system. Although previous research shows that
-    people will replace their choice of words with simple substitutes, studies using
-    more challenging substitutions are sparse. In this paper, we investigate whether
-    people adapt their speech to the vocabulary of a dialogue system when the system's
-    suggested words are not direct synonyms. 32 participants played a geography-themed
-    game with a remote-controlled agent and were primed by referencing strategies
-    (rather than individual terms) introduced in follow-up questions. Our results
-    suggest that context-appropriate substitutes support convergence and that the
-    convergence has a lasting effect within a dialogue session if the system's wording
-    is more consistent with the norms of the domain than the original wording of the
-    speaker.
+  openreview_id: QG3VIZkNqn
+  pdf_file: 56a324752927fbe2f1f39e2c63e9957ab98eaf63.pdf
+  title: 'ECCC: Edge Code Cloak Coder for Privacy Code Agent'
+- abstract: As AI advances, aligning it with diverse human and societal values grows
+    critical. But how do we define these values and measure AI’s adherence to them?
+    We present ValueCompass, a framework grounded in psychological theories, to assess
+    human-AI alignment. Applying it to five diverse LLMs and 112 humans from seven
+    countries across four scenarios—collaborative writing, education, public sectors,
+    and healthcare—we uncover key misalignments. For example, humans prioritize national
+    security, while LLMs often reject it. Values also shift across contexts, demanding
+    scenario-specific alignment strategies. This work advances AI design by mapping
+    how systems can better reflect societal ethics.
+  archival: true
   attributes:
-    paper_type: long
-    presentation_type: poster
-    submitted_area: Area 3
+    paper_length: Short (4 pages)
+    submission_type: Research Paper
   authors:
-  - first_name: Amanda
-    last_name: Bergqvist
-  - first_name: Ramesh
-    last_name: Manuvinakurike
-  - first_name: Deepthi
-    last_name: Karkada
-  - first_name: Maike
-    last_name: Paetzel
-  file: 24.pdf
-  id: 24
-  archival: True
-  title: Nontrivial Lexical Convergence in a Geography-Themed Game
-- abstract: This paper presents MDP policy learning for agents to learn strategic
-    behavior--how to play board games--during multimodal dialogues. Policies are trained
-    offline in simulation, with dialogues carried out in a formal language. The agent
-    has a temporary belief state for the dialogue, and a persistent knowledge store
-    represented as an extensive-form game tree. How well the agent learns a new game
-    from a dialogue with a simulated partner is evaluated by how well it plays the
-    game, given its dialogue-final knowledge state. During policy training, we control
-    for the simulated dialogue partner's level of informativeness in responding to
-    questions. The agent learns best when its trained policy matches the current dialogue
-    partner's informativeness. We also present a novel data collection for training
-    natural language modules. Human subjects who engaged in dialogues with a baseline
-    system rated the system's language skills as above average. Further, results confirm
-    that human dialogue partners also vary in their informativeness.
+  - emails: '****@uw.edu'
+    first_name: Hua
+    google_scholar_id: https://scholar.google.com/citations?user=zFjlv1sAAAAJ&hl=en
+    homepage: http://hua-shen.org/
+    last_name: Shen
+    name: Hua Shen
+    orcid: https://orcid.org/0000-0002-4928-525X
+    semantic_scholar_id: https://www.semanticscholar.org/author/Hua-Shen/145028030
+    username: ~Hua_Shen1
+  - emails: '****@gmail.com'
+    first_name: Tiffany
+    google_scholar_id: https://scholar.google.com/citations?user=WXMVE7IAAAAJ&hl=en
+    homepage: https://tknearem.wixsite.com/tknearem
+    last_name: Knearem
+    name: Tiffany Knearem
+    orcid: https://orcid.org/0000-0003-4928-6225
+    username: ~Tiffany_Knearem1
+  - dblp_id: https://dblp.org/pid/324/2458
+    emails: '****@microsoft.com'
+    first_name: Reshmi
+    google_scholar_id: https://scholar.google.com/citations?user=ui8JeF5lKNMC&hl=e
+    homepage: https://reshmighosh.github.io
+    institution: Microsoft
+    last_name: Ghosh
+    name: Reshmi Ghosh
+    username: ~Reshmi_Ghosh1
+  - emails: '****@illinois.edu'
+    first_name: Yu-Ju
+    last_name: Yang
+    name: Yu-Ju Yang
+    orcid: https://orcid.org/0009-0005-1989-0044
+    username: ~Yu-Ju_Yang1
+  - emails: '****@uw.edu'
+    first_name: Nicholas
+    google_scholar_id: https://scholar.google.com/citations?user=lRikbuYAAAAJ&hl=en
+    institution: University of Washington
+    last_name: Clark
+    name: Nicholas Clark
+    semantic_scholar_id: https://www.semanticscholar.org/author/Nicholas-Clark/2283932966
+    username: ~Nicholas_Clark2
+  - dblp_id: https://dblp.org/pid/38/11520.html
+    emails: '****@uw.edu'
+    first_name: Tanu
+    google_scholar_id: https://scholar.google.com/citations?user=5q_BkVAAAAAJ&hl=en
+    homepage: http://tanumitra.com/
+    institution: University of Washington
+    last_name: Mitra
+    name: Tanu Mitra
+    username: ~Tanu_Mitra1
+  - emails: '****@illinois.edu'
+    first_name: Yun
+    homepage: https://ischool.illinois.edu/people/yun-huang
+    institution: University of Illinois at Urbana-Champaign
+    last_name: Huang
+    name: Yun Huang
+    username: ~Yun_Huang5
+  decision: '2025'
+  file: 27.pdf
+  id: 27
+  openreview_id: Cc4QNvkino
+  pdf_file: c62a4ceed6007515d8cb90c20f1edc9cf1ccdf10.pdf
+  title: 'ValueCompass: A Framework for Measuring Contextual Value Alignment Between
+    Human and LLMs'
+- abstract: 'We investigate the robustness of Whisper-based automatic speech recognition
+    (ASR) models for two major Indonesian regional languages: Javanese and Sundanese.
+    While recent work has demonstrated strong ASR performance under clean conditions,
+    their effectiveness in noisy environments remains unclear. To address this, we
+    experiment with multiple training strategies, including synthetic noise augmentation
+    and SpecAugment, and evaluate performance across a range of signal-to-noise ratios
+    (SNRs). Our results show that noise-aware training substantially improves robustness,
+    particularly for larger Whisper models. A detailed error analysis further reveals
+    language-specific challenges, highlighting avenues for future improvements.'
+  archival: true
   attributes:
-    paper_type: long
-    presentation_type: oral
-    submitted_area: Area 2
+    paper_length: Short (4 pages)
+    submission_type: Research Paper
   authors:
-  - first_name: Maryam
-    last_name: Zare
-  - first_name: Ali
-    last_name: Ayub
-  - first_name: Aishan
-    last_name: Liu
-  - first_name: Sweekar
-    last_name: Sudhakara
-  - first_name: Alan
-    last_name: Wagner
-  - first_name: Rebecca
-    last_name: Passonneau
-  file: 25.pdf
-  id: 25
-  archival: True
-  title: Dialogue Policies for Learning Board Games through Multimodal Communication
-- abstract: 'We will demonstrate a deployed conversational AI system that acts as
-    a host of a smart-building on a university campus. The system combines open-domain
-    social conversation with task-based conversation regarding navigation in the building,
-    live resource updates (e.g. available computers) and events in the building. We
-    are able to demonstrate the system on several platforms: Google Home devices,
-    Android phones, and a Furhat robot.'
+  - emails: '****@mbzuai.ac.ae'
+    first_name: Salsabila
+    google_scholar_id: https://scholar.google.com/citations?hl=en&user=kqXYs4gAAAAJ
+    last_name: Pranida
+    middle_name: Zahirah
+    name: Salsabila Zahirah Pranida
+    username: ~Salsabila_Zahirah_Pranida1
+  - emails: '****@mbzuai.ac.ae'
+    first_name: Rifo
+    institution: Mohamed bin Zayed University of Artificial Intelligence
+    last_name: Genadi
+    middle_name: Ahmad
+    name: Rifo Ahmad Genadi
+    username: ~Rifo_Ahmad_Genadi1
+  - dblp_id: https://dblp.org/pid/360/4697
+    emails: '****@mbzuai.ac.ae'
+    first_name: Muhammad
+    google_scholar_id: https://scholar.google.com/citations?user=GXhAThEAAAAJ&hl=en
+    homepage: https://sites.google.com/view/mcairlangga/
+    last_name: Airlangga
+    middle_name: Cendekia
+    name: Muhammad Cendekia Airlangga
+    semantic_scholar_id: https://www.semanticscholar.org/author/Muhammad-Cendekia-Airlangga/2264465477
+    username: ~Muhammad_Cendekia_Airlangga1
+  - dblp_id: https://dblp.org/pid/92/6456
+    emails: '****@uwaterloo.ca'
+    first_name: Shady
+    google_scholar_id: https://scholar.google.com/citations?user=osOiYvYAAAAJ&hl=en
+    institution: University of Waterloo
+    last_name: Shehata
+    name: Shady Shehata
+    orcid: https://orcid.org/0000-0002-3258-6734
+    semantic_scholar_id: https://www.semanticscholar.org/author/Shady-Shehata/38510157
+    username: ~Shady_Shehata1
+  decision: '2025'
+  file: 31.pdf
+  id: 31
+  openreview_id: JW7F557nbv
+  pdf_file: 7bcce177ae747e23c98f65b1ac4d4c6a05023893.pdf
+  title: 'ASR Under Noise: Exploring Robustness for Sundanese and Javanese'
+- abstract: Scientific visual question answering poses significant challenges for
+    vision-language models due to the complexity of scientific figures and their multimodal
+    context. Traditional approaches treat the figure and accompanying text (e.g.,
+    questions and answer options) as separate inputs. EXAMS-V introduced a new paradigm
+    by embedding both visual and textual content into a single image. However, even
+    state-of-the-art proprietary models perform poorly on this setup in zero-shot
+    settings, underscoring the need for task-specific fine-tuning. To address the
+    scarcity of training data in this "text-in-image" format, we synthesize a new
+    dataset by converting existing separate image-text pairs into unified images.
+    Fine-tuning a small multilingual multimodal model on a mix of our synthetic data
+    and EXAMS-V yields notable gains across 13 languages, demonstrating strong average
+    improvements and cross-lingual transfer.
+  archival: true
   attributes:
-    paper_type: short
-    presentation_type: poster
-    submitted_area: Area 2
+    paper_length: Short (4 pages)
+    submission_type: Research Paper
   authors:
-  - first_name: Weronika
-    last_name: "Siei\u0144ska"
-  - first_name: Christian
-    last_name: Dondrup
-  - first_name: Nancie
-    last_name: Gunson
-  - first_name: Oliver
-    last_name: Lemon
-  file: 28.pdf
-  id: 28
-  archival: True
-  title: Conversational Agents for Intelligent Buildings
-- abstract: 'Dialog systems capable of filling slots with numerical values have wide
-    applicability to many task-oriented applications. '
-  attributes:
-    paper_type: short
-    presentation_type: oral
-    submitted_area: Area 1
-  authors:
-  - first_name: Hongjie
-    last_name: Shi
+  - emails: '****@mbzuai.ac.ae'
+    first_name: Belal
+    google_scholar_id: https://scholar.google.com/citations?hl=en&user=FmCYL00AAAAJ
+    last_name: Shoer
+    name: Belal Shoer
+    username: ~Belal_Shoer1
+  - dblp_id: https://dblp.org/pid/225/7708
+    emails: '****@mbzuai.ac.ae'
+    first_name: Yova
+    institution: Mohamed bin Zayed University of Artificial Intelligence
+    last_name: Kementchedjhieva
+    name: Yova Kementchedjhieva
+    orcid: https://orcid.org/0009-0000-7465-5702
+    semantic_scholar_id: https://www.semanticscholar.org/author/Yova-Kementchedjhieva/51208524
+    username: ~Yova_Kementchedjhieva1
+  decision: '2025'
   file: 38.pdf
   id: 38
-  archival: True
-  title: A Sequence-to-sequence Approach for Numerical Slot-filling Dialog Systems
-- abstract: Conversations over the telephone require timely turn-taking cues that
-    signal the participants when to speak and when to listen. When a two-way transmission
-    delay is introduced into such conversations, the immediate feedback is delayed,
-    and the interactivity of the conversation is impaired. With delayed speech on
-    each side of the transmission, different conversation realities emerge on both
-    ends, which alters the way the participants interact with each other. Simulating
-    conversations can give insights on turn-taking and spoken interactions between
-    humans but can also used for analyzing and even predicting human behavior in conversations.
+  openreview_id: wEa1EjqsNA
+  pdf_file: 3d3915a27f9c3be59a807b8e854d8639be1a6421.pdf
+  title: A Simple Data Augmentation Strategy for Text-in-Image Scientific VQA
+- abstract: Knowledge distillation (KD) is a popular method of transferring knowledge
+    from a large "teacher" model to a small "student" model.  Previous work has explored
+    various layer-selection strategies (e.g., forward matching and in-order random
+    matching) for intermediate-layer matching in KD, where a student layer is forced
+    to resemble a certain teacher layer. In this work, we revisit such layer-selection
+    strategies and observe an intriguing phenomenon that layer-selection strategy
+    does not matter (much) in intermediate-layer matching---even seemingly nonsensical
+    matching strategies such as reverse matching still result in surprisingly good
+    student performance. We provide an interpretation for this phenomenon by examining
+    the angles between teacher layers viewed from the student's perspective. Our work
+    sheds light on KD practice, as layer-selection strategies may not be the main
+    focus of KD system design and vanilla forward matching works well in most setups.
+  archival: false
   attributes:
-    paper_type: short
-    presentation_type: oral
-    submitted_area: Area 1
+    paper_length: Short (4 pages)
+    submission_type: Research Paper
   authors:
-  - first_name: Thilo
-    last_name: Michael
-  - first_name: Sebastian
-    last_name: "M\xF6ller"
-  file: 41.pdf
-  id: 41
-  archival: True
-  title: Simulating Turn-Taking in Conversations with Delayed Transmission
-- abstract: "For the acquisition of knowledge through dialogues, it is crucial for\
-    \ systems to ask questions that do not diminish the user\u2019s willingness to\
-    \ talk, i.e., that do not degrade the user\u2019s impression. This paper reports\
-    \ the results of our analysis on how user impression changes depending on the\
-    \ types of questions to acquire lexical knowledge, that is, explicit and implicit\
-    \ questions, and the correctness of the content of the questions. We also analyzed\
-    \ how sequences of the same type of questions affect user impression. User impression\
-    \ scores were collected from 104 participants recruited via crowdsourcing and\
-    \ then regression analysis was conducted. The results demonstrate that implicit\
-    \ questions give a good impression when their content is correct, but a bad impression\
-    \ otherwise. We also found that consecutive explicit questions are more annoying\
-    \ than implicit ones when the content of the questions is correct. Our findings\
-    \ reveal helpful insights for creating a strategy to avoid user impression deterioration\
-    \ during knowledge acquisition."
-  attributes:
-    paper_type: long
-    presentation_type: poster
-    submitted_area: Area 3
-  authors:
-  - first_name: Kazunori
-    last_name: Komatani
-  - first_name: Mikio
-    last_name: Nakano
-  file: 42.pdf
-  id: 42
-  archival: True
-  title: User Impressions of Questions to Acquire Lexical Knowledge
-- abstract: Cognitive models of conversation and research on user-adaptation in dialogue
-    systems involves a better understanding of speakers convergence in conversation.
-    Convergence effects have been established on controlled data sets, for various
-    acoustic and linguistic variables. Tracking interpersonal dynamics on generic
-    corpora has provided positive but more contrasted outcomes. We propose here to
-    enrich large conversational corpora with dialogue act (DA) information. We use
-    DA-labels as filters in order to create data sub sets featuring homogeneous conversational
-    activity. Those data sets allow a more precise comparison between speakers' speech
-    variables. Our experiences consist of comparing convergence on low level variables
-    (Energy, Pitch, Speech Rate) measured on raw data sets, with human and automatically
-    DA-labelled data sets. We found that such filtering does help in observing convergence
-    suggesting that studies on interpersonal dynamics should consider such high level
-    dialogue activity types and their related NLP topics as important ingredients
-    of their toolboxes.
-  attributes:
-    paper_type: short
-    presentation_type: poster
-    submitted_area: Area 2
-  authors:
-  - first_name: Simone
-    last_name: Fuscone
-  - first_name: Benoit
-    last_name: Favre
-  - first_name: Laurent
-    last_name: "Pr\xE9vot"
+  - emails: '****@ualberta.ca'
+    first_name: Zony
+    institution: University of Alberta
+    last_name: Yu
+    name: Zony Yu
+    username: ~Zony_Yu1
+  - dblp_id: https://dblp.org/pid/311/4692
+    emails: '****@ualberta.ca'
+    first_name: Yuqiao
+    homepage: https://apps.ualberta.ca/directory/person/yuqiao
+    last_name: Wen
+    name: Yuqiao Wen
+    semantic_scholar_id: https://www.semanticscholar.org/author/Yuqiao-Wen/2153698023
+    username: ~Yuqiao_Wen1
+  - emails: '****@gmail.com'
+    first_name: Lili
+    google_scholar_id: https://scholar.google.com.hk/schhp?hl=en&authuser=1
+    homepage: https://lili-mou.github.io/
+    institution: University of Alberta
+    last_name: Mou
+    name: Lili Mou
+    username: ~Lili_Mou1
+  decision: '2025'
   file: 43.pdf
   id: 43
-  title: Filtering conversations through dialogue acts labels for improving corpus-based
-    convergence studies
-- abstract: In this paper we present the newest version of retico - a python-based
-    incremental dialogue framework to create state-of-the-art spoken dialogue systems
-    and simulations. Retico provides a range of incremental modules that are based
-    on services like Google ASR, Google TTS and Rasa NLU. Incremental networks can
-    be created either in code or with a graphical user interface.
+  openreview_id: GA6qB4E0xp
+  pdf_file: 063c1c3eadba438d354700a2f0b7712a670d38db.pdf
+  title: 'Revisiting Intermediate-Layer Matching in Knowledge Distillation: Layer-Selection
+    Strategy Doesn’t Matter (Much)'
+- abstract: 'Large language models (LLMs) excel in generating fluent utterances but
+    can lack reliable grounding in verified information. At the same time, knowledge-graph-based
+    fact-checkers deliver precise and interpretable evidence, yet suffer from limited
+    coverage or latency. By integrating LLMs with knowledge graphs and real-time search
+    agents, we introduce a hybrid fact-checking approach that leverages the individual
+    strengths of each component. Our system comprises three autonomous steps: 1) a
+    Knowledge Graph (KG) Retrieval for rapid one‑hop lookups in DBpedia, 2) an LM-based
+    classification guided by a task-specific labeling prompt, producing outputs with
+    internal rule-based logic, and 3) a Web Search Agent invoked only when KG coverage
+    is insufficient. Our pipeline achieves an F1 score of 0.93 on the FEVER benchmark
+    on the Supported/Refuted split without task‑specific fine‑tuning. To address Not
+    enough information cases, we conduct a targeted reannotation study showing that
+    our approach frequently uncovers valid evidence for claims originally labeled
+    as Not Enough Information (NEI), as confirmed by both expert annotators and LLM
+    reviewers. With this paper, we present a modular, open-source fact-checking pipeline
+    with fallback strategies and generalization across datasets.'
+  archival: true
   attributes:
-    paper_type: long
-    presentation_type: oral
-    submitted_area: Area 2
+    paper_length: Short (4 pages)
+    submission_type: Research Paper
   authors:
-  - first_name: Thilo
-    last_name: Michael
+  - emails: '****@tum.de'
+    first_name: ''
+    last_name: Shaghayeghkolli
+    name: Shaghayeghkolli
+    username: ~Shaghayeghkolli1
+  - emails: '****@tum.de'
+    first_name: Richard
+    last_name: Rosenbaum
+    name: Richard Rosenbaum
+    orcid: https://orcid.org/0009-0006-0364-388X
+    username: ~Richard_Rosenbaum1
+  - emails: '****@tum.de'
+    first_name: Timo
+    last_name: Cavelius
+    name: Timo Cavelius
+    username: ~Timo_Cavelius1
+  - emails: '****@tum.de'
+    first_name: Lasse
+    last_name: Strothe
+    name: Lasse Strothe
+    orcid: https://orcid.org/0009-0004-4023-5776
+    username: ~Lasse_Strothe1
+  - emails: andrii.lata@tum.de
+    first_name: Andrii
+    institution: NA
+    last_name: Lata
+    name: Andrii Lata
+    username: andrii.lata@tum.de
+  - emails: '****@tum.de'
+    first_name: Jana
+    google_scholar_id: https://scholar.google.com/citations?user=Ct83jG4AAAAJ&hl=en&oi=ao
+    homepage: https://www.gov.sot.tum.de/hcc/home/
+    institution: Technische Universität München
+    last_name: Diesner
+    name: Jana Diesner
+    orcid: https://orcid.org/0000-0001-8183-7109
+    username: ~Jana_Diesner1
+  decision: '2025'
   file: 44.pdf
   id: 44
-  title: 'Retico: An incremental framework for spoken dialogue systems'
-- abstract: 'Turn-entry timing is an important requirement for conversation, and one
-    that spoken dialogue systems largely fail at. In this paper, we introduce a computational
-    framework based on work from Psycholinguistics, which is aimed at achieving proper
-    turn-taking timing for situated agents. The approach involves incremental processing
-    and lexical prediction of the turn in progress, which allows a situated dialogue
-    system to start its turn and initiate actions earlier than would otherwise be
-    possible. We evaluate the framework by integrating it within a cognitive robotic
-    architecture and testing performance on a corpus of task-oriented human-robot
-    directives. We demonstrate that: 1) the system is superior to a non-incremental
-    system in terms of faster responses, reduced gap between turns, and the ability
-    to perform actions early, 2) the system can time its turn to come in immediately
-    at a transition point or earlier to produce several types of overlap, and 3) the
-    system is robust to various forms of disfluency in the input. Overall, this domain-independent
-    framework can be integrated into various dialogue systems to improve responsiveness,
-    and is a step toward more natural, human-like turn-taking behavior.'
+  openreview_id: sMoc9rWHxy
+  pdf_file: 71433bdf936842da68d8236f0cb4760508d9aa4f.pdf
+  title: Hybrid Fact-Checking that Integrates Knowledge Graphs, Large Language Models,
+    and Search-Based Retrieval Agents Improves Interpretable Claim Verification
+- abstract: 'Warning: This paper contains explicit statements of offensive stereotypes
+    which may be upsetting.
+
+
+    Stereotypes vary across cultural contexts, making it essential to understand how
+    language models encode social biases. MultiLingualCrowsPairs is a dataset of culturally
+    adapted stereotypical and anti-stereotypical sentence pairs across nine languages.
+    While prior work has primarily reported average fairness metrics on masked language
+    models, this paper analyzes social biases in generative models by disaggregating
+    results across specific bias types.
+
+
+    We find that although most languages show an overall preference for stereotypical
+    sentences, this masks substantial variation across different types of bias, such
+    as gender, religion, and socioeconomic status. Our findings underscore that relying
+    solely on aggregated metrics can obscure important patterns, and that fine-grained,
+    bias-specific analysis is critical for meaningful fairness evaluation.'
+  archival: true
   attributes:
-    paper_type: short
-    presentation_type: poster
-    submitted_area: Area 2
+    paper_length: Short (4 pages)
+    submission_type: Research Paper
   authors:
-  - first_name: Felix
-    last_name: Gervits
-  - first_name: Ravenna
-    last_name: Thielstrom
-  - first_name: Antonio
-    last_name: Roque
-  - first_name: Matthias
-    last_name: Scheutz
+  - dblp_id: https://dblp.org/pid/375/8426
+    emails: '****@mi.unc.edu.ar'
+    first_name: Guido
+    google_scholar_id: https://scholar.google.com/citations?hl=en&user=_QA3Hs4AAAAJ
+    institution: Universidad Nacional de Córdoba
+    last_name: Ivetta
+    name: Guido Ivetta
+    orcid: https://orcid.org/0009-0006-3248-1461
+    semantic_scholar_id: https://www.semanticscholar.org/author/Guido-Ivetta/2213060824
+    username: ~Guido_Ivetta1
+  - dblp_id: https://dblp.org/pid/305/6433
+    emails: '****@mi.unc.edu.ar'
+    first_name: Hernán
+    google_scholar_id: https://scholar.google.com/citations?user=wA3vqywAAAAJ&hl=es
+    homepage: https://nanom.github.io/
+    institution: Universidad Nacional de Córdoba, Argentina
+    last_name: Maina
+    name: Hernán Maina
+    semantic_scholar_id: https://www.semanticscholar.org/author/Hern%C3%A1n-Maina/2139773809
+    username: ~Hernán_Maina1
+  - dblp_id: https://dblp.org/pid/22/1403
+    emails: '****@unc.edu.ar'
+    first_name: Luciana
+    google_scholar_id: https://scholar.google.com/citations?user=MHvcOG0AAAAJ&hl=es
+    homepage: https://benotti.github.io/
+    institution: 'Universidad nacional de Córdoba '
+    last_name: Benotti
+    name: Luciana Benotti
+    orcid: https://orcid.org/0000-0001-7456-4333
+    semantic_scholar_id: https://www.semanticscholar.org/author/Luciana-Benotti/3131683?sort=pub-date
+    username: ~Luciana_Benotti1
+  decision: '2025'
+  file: 46.pdf
+  id: 46
+  openreview_id: OLc7pyYQkt
+  pdf_file: 2b9b4b4e5da8f59acc5af16c9383c9aa056af017.pdf
+  title: Insights from a Disaggregated Analysis of Kinds of Biases in a Multicultural
+    Dataset
+- abstract: As Large Language Models (LLMs) gain mainstream public usage, understanding
+    how users interact with them becomes increasingly important. Limited variety in
+    training data raises concerns about LLM reliability across different language
+    inputs. To explore this, we test several LLMs using functionally equivalent prompts
+    expressed in different English sublanguages. We frame this analysis using Question-Answer
+    (QA) pairs, which allow us to detect and evaluate appropriate and anomalous model
+    behavior. We contribute a cross-LLM testing method and a new QA dataset  translated
+    into AAVE and WAPE variants. Early results reveal a notable drop in accuracy for
+    one sublanguage relative to the baseline.
+  archival: true
+  attributes:
+    paper_length: Short (4 pages)
+    submission_type: Research Paper
+  authors:
+  - emails: '****@ufl.edu'
+    first_name: William
+    institution: University of Florida
+    last_name: Coggins
+    name: William Coggins
+    orcid: https://orcid.org/0009-0009-7850-7489
+    username: ~William_Coggins1
+  - emails: '****@ufl.edu'
+    first_name: Jasmine
+    institution: University of Florida
+    last_name: McKenzie
+    name: Jasmine McKenzie
+    orcid: https://orcid.org/0000-0002-9518-6025
+    username: ~Jasmine_McKenzie1
+  - dblp_id: https://dblp.org/pid/383/0161
+    emails: '****@ufl.edu'
+    first_name: Sangpil
+    google_scholar_id: https://scholar.google.com/citations?user=klSyUtMAAAAJ&hl=en
+    homepage: https://nlp.cise.ufl.edu/~youms
+    institution: University of Florida
+    last_name: Youm
+    name: Sangpil Youm
+    orcid: https://orcid.org/0000-0001-7234-0395
+    semantic_scholar_id: https://www.semanticscholar.org/author/Sangpil-Youm/2189481515
+    username: ~Sangpil_Youm1
+  - emails: '****@ufl.edu'
+    first_name: Pradham
+    last_name: Mummaleti
+    name: Pradham Mummaleti
+    username: ~Pradham_Mummaleti1
+  - emails: '****@ufl.edu'
+    first_name: Juan
+    institution: University of Florida, University of Florida and Clemson University
+    last_name: Gilbert
+    name: Juan Gilbert
+    username: ~Juan_Gilbert1
+  - dblp_id: https://dblp.org/pid/69/7691.html
+    emails: '****@ufl.edu'
+    first_name: Eric
+    google_scholar_id: https://scholar.google.com/citations?user=VT7D6oYAAAAJ
+    homepage: https://www.cise.ufl.edu/~eragan/
+    institution: University of Florida
+    last_name: Ragan
+    name: Eric Ragan
+    orcid: https://orcid.org/0000-0002-7192-3457
+    username: ~Eric_Ragan1
+  - dblp_id: https://dblp.org/pid/d/BonnieJDorr
+    emails: '****@ufl.edu'
+    first_name: Bonnie
+    homepage: https://www.cise.ufl.edu/dorr-bonnie-j/
+    institution: University of Florida
+    last_name: Dorr
+    middle_name: J
+    name: Bonnie J Dorr
+    orcid: https://orcid.org/0000-0003-4356-5813
+    semantic_scholar_id: https://www.semanticscholar.org/author/B.-Dorr/1752326
+    username: ~Bonnie_J_Dorr1
+  decision: '2025'
   file: 49.pdf
   id: 49
-  title: 'It''s About Time: Turn-Entry Timing For Situated Human-Robot Dialogue'
-- abstract: 'In this work, we investigate the human perception of coherence in open-domain
-    dialogues. In particular, we address the problem of annotating and modeling the
-    coherence of next-turn candidates while considering the entire history of the
-    dialogue.  '
+  openreview_id: 4gyrM0C503
+  pdf_file: f1fac8f813f7582043628e60a5fcb8c1822f3381.pdf
+  title: 'That Ain''t Right: Assessing LLM Performance on QA in African American and
+    West African English Dialects'
+- abstract: Understanding emotions is fundamental to many human-computer interaction
+    tasks, including customer feedback analysis, marketing insights, and social media
+    monitoring. In real-world scenarios, individuals often express multiple emotions
+    simultaneously, making multi-label annotation essential for capturing emotional
+    complexity. While the EthioEmo dataset (Belay et al., 2025) provides multi-label
+    emotion annotations for Ethiopian languages, it lacks information on emotion intensities,
+    which are crucial for modeling the strength or subtlety of each emotional expression.
+    In this work, we extend the EthioEmo dataset by introducing emotion intensity
+    annotations for each labeled emotion, offering a richer and more nuanced resource
+    for emotion understanding in low-resource African languages. We evaluate a range
+    of encoder-only Pretrained Language Models (PLMs) and open-source Large Language
+    Models (LLMs) on this enhanced dataset. Preliminary results show that African-language
+    PLMs consistently outperform open-source LLMs, underscoring the importance of
+    culturally and linguistically aligned models for emotion analysis in underrepresented
+    languages.
+  archival: false
   attributes:
-    paper_type: short
-    presentation_type: oral
-    submitted_area: Area 1
+    paper_length: Short (4 pages)
+    submission_type: Research Paper
   authors:
-  - first_name: Alessandra
-    last_name: Cervone
-  - first_name: Giuseppe
-    last_name: Riccardi
+  - dblp_id: https://dblp.org/pid/312/3078
+    emails: '****@gmail.com'
+    first_name: Tadesse
+    google_scholar_id: https://scholar.google.com/citations?user=8S7ilV0AAAAJ&hl=en
+    homepage: https://tadesse-destaw.github.io/
+    last_name: Belay
+    middle_name: Destaw
+    name: Tadesse Destaw Belay
+    orcid: https://orcid.org/0000-0003-0883-984X
+    semantic_scholar_id: https://www.semanticscholar.org/author/Tadesse-Destaw-Belay/1484858320
+    username: ~Tadesse_Destaw_Belay1
+  decision: '2025'
+  file: 51.pdf
+  id: 51
+  openreview_id: R3M9uGpxMj
+  pdf_file: 557127f99aee8dc73c84720624c9c82ec10aa266.pdf
+  title: Advancing Emotion Recognition and Intensity Modeling for Ethiopian Languages
+- abstract: 'News classification is a downstream task in Natural Language Processing
+    (NLP) that involves the automatic categorization of news articles into predefined
+    thematic categories. Although notable advancements have been made for high-resource
+    languages, low-resource languages such as Amharic continue to encounter significant
+    challenges, largely due to the scarcity of annotated corpora and the limited availability
+    of language-specific, state-of-the-art model adaptations. To address these limitations,
+    this study significantly expands an existing Amharic news dataset, increasing
+    its size from 50,000 to 144,000 articles, thus enriching the linguistic and topical
+    diversity available for the model training and evaluation. Using this expanded
+    dataset, we systematically evaluated the performance of five transformer-based
+    models: mBERT, XLM-R, DistilBERT, AfriBERTa, and AfroXLM in the context of Amharic
+    news classification. Among these, AfriBERTa and XLM-R achieved the highest F1-scores
+    of 90.25\% and 90.11\%, respectively, establishing a new performance baseline
+    for the task. These findings underscore the efficacy of advanced multilingual
+    and Africa-centric transformer architectures when applied to under-resourced languages,
+    and further emphasize the critical importance of large-scale, high-quality datasets
+    in enabling robust model generalization. This study offers a robust empirical
+    foundation for advancing NLP research in low-resource languages, which remain
+    underrepresented in current NLP resources and methodologies.'
+  archival: true
+  attributes:
+    paper_length: Short (4 pages)
+    submission_type: Research Paper
+  authors:
+  - emails: '****@gmail.com'
+    first_name: Dagnachew
+    last_name: Marilign
+    middle_name: Mekonnen
+    name: Dagnachew Mekonnen Marilign
+    orcid: https://orcid.org/0009-0004-0123-5140
+    username: ~Dagnachew_Mekonnen_Marilign1
+  - emails: '****@aau.edu.et'
+    first_name: Eyob
+    google_scholar_id: https://scholar.google.com/citations?user=FH3bvKgAAAAJ&hl=en
+    institution: Addis Ababa University
+    last_name: Alemu
+    middle_name: Nigussie
+    name: Eyob Nigussie Alemu
+    username: ~Eyob_Nigussie_Alemu1
+  decision: '2025'
+  file: 52.pdf
+  id: 52
+  openreview_id: ChZnOITm3K
+  pdf_file: 6428eba68931fcffcd207eee615153cf74dd8192.pdf
+  title: 'Amharic News Topic Classification: Dataset and Transformer-Based Model Benchmarks'
+- abstract: 'This research investigates the detection of covert sales tactics in human-chatbot
+    interactions with a focus on the classification of solicited and unsolicited product
+    recommendations. A custom dataset of 630 conversations was generated using a Large
+    Language Model (LLM) to simulate chatbot-user interactions in various contexts,
+    such as when interacting with users from different age groups, recommending different
+    types of products and using different types of sales tactics. We then employ various
+    approaches, including BiLSTM-based classification with sentence and word-level
+    embeddings, as well as zero-shot, few-shot and CoT classification on large state-of-the-art
+    LLMs. Our results show that few-shot GPT4 (86.44\%) is the most accurate model
+    on our dataset, followed by our compact SBERT+BiLSTM model (78.63\%) - despite
+    its small size.
+
+    Our work demonstrates the feasibility of implementing oversight algorithms for
+    monitoring chatbot conversations for undesired practices and that such monitoring
+    could potentially be implemented locally on-device to mitigate privacy concerns.
+    This research thus lays the groundwork for the development of auditing and oversight
+    methods for virtual assistants such as chatbots, allowing consumer protection
+    agencies to monitor the ethical use of conversational AI.'
+  archival: true
+  attributes:
+    paper_length: Short (4 pages)
+    submission_type: Research Paper
+  authors:
+  - emails: '****@kcl.ac.uk'
+    first_name: Simrat
+    google_scholar_id: https://scholar.google.com/citations?user=6HzgYOUAAAAJ&hl=en
+    last_name: Deol
+    name: Simrat Deol
+    orcid: https://orcid.org/0000-0002-6785-9691
+    username: ~Simrat_Deol1
+  - emails: '****@kcl.ac.uk'
+    first_name: Jack
+    google_scholar_id: https://scholar.google.com/citations?user=0RlziVwAAAAJ&hl=en
+    last_name: Contro
+    middle_name: Luigi Henry
+    name: Jack Luigi Henry Contro
+    username: ~Jack_Luigi_Henry_Contro1
+  - dblp_id: https://dblp.org/pid/123/6682
+    emails: '****@kcl.ac.uk'
+    first_name: Martim
+    google_scholar_id: https://scholar.google.com/citations?user=zujQKTMAAAAJ
+    homepage: https://www.martimbrandao.com/
+    institution: King's College London, University of London
+    last_name: Brandao
+    name: Martim Brandao
+    orcid: https://orcid.org/0000-0002-2003-0675
+    semantic_scholar_id: https://www.semanticscholar.org/author/Martim-Brandao/143778750
+    username: ~Martim_Brandao1
+  decision: '2025'
+  file: 54.pdf
+  id: 54
+  openreview_id: yKRurbZL2N
+  pdf_file: e1d31d56515780173c5cf03f91ec62a2a10e6796.pdf
+  title: Is this Chatbot Trying to Sell Something? Towards Oversight of Chatbot Sales
+    Tactics
+- abstract: 'Sarcasm is a complex linguistic and pragmatic phenomenon where expressions
+    convey meanings that contrast with their literal interpretations, requiring sensitivity
+    to the speaker''s intent and context. Misinterpreting sarcasm in collaborative
+    human–AI settings can lead to under- or overreliance on LLM outputs, with consequences
+    ranging from breakdowns in communication to critical safety failures. We introduce
+    Sarc7, a benchmark for fine-grained sarcasm evaluation based on the MUStARD dataset,
+    annotated with seven pragmatically defined sarcasm types: self-deprecating, brooding,
+    deadpan, polite, obnoxious, raging, and manic. These categories are adapted from
+    prior linguistic work and used to create a structured dataset suitable for LLM
+    evaluation. For classification, we evaluate multiple prompting strategies—zero-shot,
+    few-shot, chain-of-thought (CoT), and a novel emotion-based technique—across five
+    major LLMs. Emotion-based prompting yields the highest macro-averaged F1 score
+    of 0.3664 (Gemini 2.5), outperforming CoT for several models and demonstrating
+    its effectiveness in sarcasm type recognition. For sarcasm generation, we design
+    structured prompts using fixed values across four sarcasm-relevant dimensions:
+    incongruity, shock value, context dependency, and emotion. Using Claude 3.5 Sonnet,
+    this approach produces more subtype-aligned outputs, with human evaluators preferring
+    emotion-based generations 38.46% more often than zero-shot baselines. Sarc7 offers
+    a foundation for evaluating nuanced sarcasm understanding and controllable generation
+    in LLMs, pushing beyond binary classification toward interpretable, emotion-informed
+    language modeling.'
+  archival: true
+  attributes:
+    paper_length: Short (4 pages)
+    submission_type: Research Paper
+  authors:
+  - emails: '****@gmail.com'
+    first_name: Lang
+    last_name: Xiong
+    name: Lang Xiong
+    username: ~Lang_Xiong2
+  - emails: '****@tjhsst.edu'
+    first_name: Raina
+    homepage: https://www.google.com/
+    last_name: Gao
+    name: Raina Gao
+    username: ~Raina_Gao1
+  - emails: '****@gmail.com'
+    first_name: Alyssa
+    homepage: https://www.google.com/
+    last_name: Jeong
+    name: Alyssa Jeong
+    username: ~Alyssa_Jeong3
+  decision: '2025'
   file: 58.pdf
   id: 58
-  title: Is this Dialogue Coherent? Learning from Dialogue Acts and Entities
-- abstract: 'Our goal is to develop and deploy a virtual assistant health coach that
-    can help patients set realistic physical activity goals and live a more active
-    lifestyle. Since there is no publicly shared dataset of health coaching dialogues,
-    the first phase of our research focused on data collection. We hired a certified
-    health coach and 28 patients to collect the first round of human-human health
-    coaching interaction which took place via text messages. This resulted in 2853
-    messages. The data collection phase was followed by conversation analysis to gain
-    insight into the way information exchange takes place between a health coach and
-    a patient. This was formalized using two annotation schemas: one that focuses
-    on the goals the patient is setting and another that models the higher-level structure
-    of the interactions. In this paper, we discuss these schemas and briefly talk
-    about their application for automatically extracting activity goals and annotating
-    the second round of data, collected with different health coaches and patients.
-    Given the resource-intensive nature of data annotation, successfully annotating
-    a new dataset automatically is key to answer the need for high quality, large
-    datasets.'
+  openreview_id: Uh8GAAbYCZ
+  pdf_file: 1bb6cdf782b0a7eb403e7fe0c31f602e84615665.pdf
+  title: 'Sarc7: Evaluating Sarcasm Detection and Generation with Seven Types and
+    Emotion-Informed Techniques'
+- abstract: Recent advances in Large Language Models (LLMs) have enhanced the fluency
+    and coherence of Conversational Recommendation Systems (CRSs), yet emotional intelligence
+    remains a critical gap. In this study, we systematically evaluate the emotional
+    behavior of six state-of-the-art LLMs in CRS settings using the ReDial and INSPIRED
+    datasets. We propose an emotion-aware evaluation framework incorporating metrics
+    such as Emotion Alignment, Emotion Flatness, and per-emotion F1-scores. Our analysis
+    shows that most models frequently default to emotionally flat or mismatched responses,
+    often misaligning with user affect (e.g., joy misread as neutral). We further
+    examine patterns of emotional misalignment and their impact on user-centric qualities
+    such as personalization, justification, and satisfaction. Through qualitative
+    analysis, we demonstrate that emotionally aligned responses enhance user experience,
+    while misalignments lead to loss of trust and relevance. This work highlights
+    the need for emotion-aware design in CRS and provides actionable insights for
+    improving affective sensitivity in LLM-generated recommendations.
+  archival: true
   attributes:
-    paper_type: long
-    presentation_type: poster
-    submitted_area: Area 3
+    paper_length: Short (4 pages)
+    submission_type: Research Paper
   authors:
-  - first_name: Itika
-    last_name: Gupta
-  - first_name: Barbara
-    last_name: Eugenio
-    middle_name: Di
-  - first_name: Brian
-    last_name: Ziebart
-  - first_name: Aiswarya
-    last_name: Baiju
-  - first_name: Bing
-    last_name: Liu
-  - first_name: Ben
-    last_name: Gerber
-  - first_name: Lisa
-    last_name: Sharp
-  - first_name: Nadia
-    last_name: Nabulsi
-  - first_name: Mary
-    last_name: Smart
+  - emails: '****@iiitvadodara.ac.in'
+    first_name: Darshna
+    institution: Indian Institute of Information Technology, Vadodara
+    last_name: Parmar
+    name: Darshna Parmar
+    orcid: https://orcid.org/0009-0006-0038-6128
+    username: ~Darshna_Parmar1
+  - dblp_id: https://dblp.org/pid/189/4633.html
+    emails: '****@iiitvadodara.ac.in'
+    first_name: Pramit
+    google_scholar_id: https://scholar.google.com/citations?user=xivnJgQAAAAJ&hl=en
+    homepage: http://iiitvadodara.ac.in/faculty-profile/pm001.php
+    last_name: Mazumdar
+    name: Pramit Mazumdar
+    orcid: https://orcid.org/0000-0003-0999-3689
+    username: ~Pramit_Mazumdar1
+  decision: '2025'
+  file: 59.pdf
+  id: 59
+  openreview_id: 1ITlRtKmwW
+  pdf_file: ad623b52f2fe64c750e832b3223d5f36a25c3c26.pdf
+  title: Emotionally Aware or Tone-Deaf? Evaluating Emotional Alignment in LLM-Based
+    Conversational Recommendation Systems
+- abstract: Jailbreaking, the phenomenon where specific prompts cause LLMs to assist
+    with harmful requests, remains a critical challenge in NLP, particularly in non-English
+    and lower-resourced languages. To address this, we introduce MULBERE, a method
+    that extends the method of Targeted Latent Adversarial Training (T-LAT) to a multilingual
+    context. We first create and share a multilingual jailbreak dataset spanning high-,
+    medium-, and low-resource languages, and then fine-tune LLaMA-2-7b-chat with interleaved
+    T-LAT for jailbreak robustness and chat examples for model performance. Our evaluations
+    show that MULBERE reduces average multilingual jailbreak success rates by 75\%
+    compared to the base LLaMA safety training and 71\% compared to English-only T-LAT
+    while maintaining or improving standard LLM performance.
+  archival: true
+  attributes:
+    paper_length: Short (4 pages)
+    submission_type: Research Paper
+  authors:
+  - emails: '****@mit.edu'
+    first_name: Anastasia
+    last_name: Dunca
+    name: Anastasia Dunca
+    username: ~Anastasia_Dunca1
+  - emails: '****@mit.edu'
+    first_name: Maanas
+    google_scholar_id: https://scholar.google.co.in/citations?user=KmHKvzsAAAAJ&hl=en&oi=ao
+    last_name: Sharma
+    middle_name: Kumar
+    name: Maanas Kumar Sharma
+    username: ~Maanas_Kumar_Sharma1
+  - emails: '****@mit.edu'
+    first_name: Olivia
+    last_name: Munoz
+    name: Olivia Munoz
+    username: ~Olivia_Munoz1
+  - emails: vrosales@mit.edu
+    first_name: Victor
+    institution: NA
+    last_name: Rosales
+    name: Victor Rosales
+    username: vrosales@mit.edu
+  decision: '2025'
   file: 60.pdf
   id: 60
-  title: 'Human-Human Health Coaching via Text Messages: Corpus, Annotation, and Analysis'
-- abstract: Spoken interaction with a physical robot requires a dialogue system that
-    is modular, multimodal, distributive, incremental and temporally aligned. In this
-    demo paper, we make significant contributions towards fulfilling these requirements
-    by expanding upon the ReTiCo incremental framework. We outline the incremental
-    and multimodal modules and how their computation can be distributed. We demonstrate
-    the power and flexibility of our robot-ready spoken dialogue system to be integrated
-    with almost any robot.
+  openreview_id: 6RDRJHm3kv
+  pdf_file: 4528429c2d5367b5dcc5dbc3ed1a2e50b29e1cdc.pdf
+  title: 'MULBERE: Multilingual Jailbreak Robustness Using Targeted Latent Adversarial
+    Training'
+- abstract: Language models perpetuate dialect bias, associating African American
+    English (AAE) with negative traits and outcomes. We propose JustDial, a lightweight
+    finetuning framework aligning character trait associations between meaning-matched
+    AAE and Standardized American English (SAE) text, while preserving general model
+    fluency through a KL-divergence regularization term. Experiments on GPT2-Medium
+    show that JustDial successfully removed any statistically significant correlation
+    between dialect and predicted occupational prestige and reduced conviction and
+    death-sentencing disparities by more than 98.7\%, with only 100,000 text examples
+    and one epoch of LoRA finetuning.  Though this debiasing comes at the cost of
+    general model performance, adjusting the regularization term in JustDial enables
+    a navigable debiasing-performance tradeoff space. JustDial provides the first
+    proof-of-concept towards mitigating dialect prejudice in language models.
+  archival: false
   attributes:
-    paper_type: short
-    presentation_type: oral
-    submitted_area: Area 1
+    paper_length: Short (4 pages)
+    submission_type: Research Paper
   authors:
-  - first_name: Casey
-    last_name: Kennington
-  - first_name: Daniele
-    last_name: Moro
-  - first_name: Lucas
-    last_name: Marchand
-  - first_name: Jake
-    last_name: Carns
-  - first_name: David
-    last_name: McNeill
+  - emails: '****@mit.edu'
+    first_name: Maanas
+    google_scholar_id: https://scholar.google.co.in/citations?user=KmHKvzsAAAAJ&hl=en&oi=ao
+    last_name: Sharma
+    middle_name: Kumar
+    name: Maanas Kumar Sharma
+    username: ~Maanas_Kumar_Sharma1
+  - dblp_id: https://dblp.org/pid/237/9060
+    emails: '****@mit.edu'
+    first_name: Walter
+    google_scholar_id: https://scholar.google.com/citations?hl=en&user=5xL774wAAAAJ
+    homepage: https://waltergerych.github.io/
+    institution: Worcester Polytechnic Institute
+    last_name: Gerych
+    name: Walter Gerych
+    username: ~Walter_Gerych2
+  - dblp_id: https://dblp.org/pid/145/6563
+    emails: '****@mit.edu'
+    first_name: Marzyeh
+    homepage: https://www.healthyml.org/
+    institution: Massachusetts Institute of Technology
+    last_name: Ghassemi
+    name: Marzyeh Ghassemi
+    username: ~Marzyeh_Ghassemi2
+  decision: '2025'
   file: 61.pdf
   id: 61
-  title: 'rrSDS: Towards a Robot-ready Spoken Dialogue System'
-- abstract: ' physical blocks world, despite its relative simplicity, requires (in
-    fully interactive form) a rich set of functional capabilities, ranging from vision
-    to natural language understanding. In this work we tackle spatial question answering
-    in a holistic way, using a vision system, speech input and output mediated by
-    an animated avatar, a dialogue system that robustly interprets spatial queries,
-    and a constraint solver that derives answers based on 3-D spatial modeling. The
-    contributions of this work include a semantic parser that maps spatial questions
-    into logical forms consistent with a general approach to meaning representation,
-    a dialogue manager based on a schema representation, and a constraint solver for
-    spatial questions that provides answers in agreement with human perception. These
-    and other components are integrated into a multi-modal human-computer interaction
-    pipeline.'
+  openreview_id: 9inWPx4njA
+  pdf_file: 63a55889a660502a6d37514adc41170dc5b9e8a7.pdf
+  title: 'JustDial: Language Model Dialect Debiasing Using Biased Character Trait
+    Associations'
+- abstract: 'Capability evaluation of large language models is increasingly shadowed
+    by rising concerns of benchmark contamination, which cast doubt on whether static
+    legacy benchmarks are measuring genuine reasoning capability or mere memorization.
+
+    Benchmark perturbation emerges as a defining frontier for dynamic evaluation by
+    systematically modifying evaluation problems on various levels, such as altering
+    numerical values in math problems, modifying narrative contexts in science questions,
+    or introducing adversarial triggers. This approach offers a promising method to
+    distinguish authentic understanding from pattern matching.
+
+    We propose to study benchmark perturbation in a unified framework where we compare
+    the efficacy of various perturbation technique on a collection of legacy benchmarks
+    adopted by leading modern developers. We further plan to modularize a variety
+    of perturbation techniques to enable plug-and-play refreshing of benchmarks at
+    scale for future evaluation. We aim to move beyond simple data collection for
+    LLM benchmarking and eventually shift the paradigm towards self-evolving dynamic
+    evaluation.'
+  archival: true
   attributes:
-    paper_type: long
-    presentation_type: oral
-    submitted_area: Area 1
+    paper_length: Short (4 pages)
+    submission_type: Thesis Proposal
   authors:
-  - first_name: Georgiy
-    last_name: Platonov
-  - first_name: Lenhart
-    last_name: Schubert
-  - first_name: Benjamin
-    last_name: Kane
-  - first_name: Aaron
-    last_name: Gindi
+  - dblp_id: https://dblp.org/pid/408/5364
+    emails: '****@ethz.ch'
+    first_name: Terry
+    google_scholar_id: https://scholar.google.co.uk/citations?hl=en&user=hFY4t8gAAAAJ
+    homepage: https://terry-zhang.notion.site/
+    last_name: Zhang
+    middle_name: Jingchen
+    name: Terry Jingchen Zhang
+    orcid: https://orcid.org/0009-0009-1271-4696
+    semantic_scholar_id: https://www.semanticscholar.org/author/Terry-Jingchen-Zhang/2363686592
+    username: ~Terry_Jingchen_Zhang1
+  decision: '2025'
   file: 62.pdf
   id: 62
-  title: A Spoken Dialogue System for Spatial Question Answering in a Physical Blocks
-    World
-- abstract: 'In working towards accomplishing a human-level acquisition and understanding
-    of language, a robot must meet two requirements: the ability to learn words from
-    interactions with its physical environment, and the ability to learn language
-    from people in settings for language use, such as spoken dialogue. In a live interactive
-    study, we test the hypothesis that emotional displays are a viable solution to
-    the cold-start problem of how to communicate without relying on language the robot
-    does not--indeed, cannot--yet know. We explain our modular system that can autonomously
-    learn word groundings through interaction and show through a user study with 21
-    participants that emotional displays improve the quantity and quality of the inputs
-    provided to the robot.'
+  openreview_id: bCL9Xhqohi
+  pdf_file: 0548cadfa7e27ccb1dba4266f86755a3abd4259e.pdf
+  title: 'Proposal: Revive Legacy Benchmarks By Self-Evolving Perturbations'
+- abstract: Multilingual Pre-trained Language Models (multiPLMs) trained with the
+    Masked Language Modeling (MLM) objective exhibit suboptimal performance on cross-lingual
+    downstream tasks for Low-Resource Languages (LRLs). Continually pre-training these
+    multiPLMs with the Translation Language Modeling (TLM) objective on parallel data
+    improves the cross-lingual performance. However, both MLM and TLM mask tokens
+    randomly, which does not guarantee optimal representation learning. In this paper,
+    we introduce a novel masking strategy, Linguistic Entity Masking (LEM) to improve
+    the cross-lingual representations of existing multiPLMs. In contrast to MLM and
+    TLM, LEM limits masking to the linguistic entities nouns, verbs and Named Entities,
+    which hold a higher prominence in a sentence. We hypothesise that masking linguistically
+    significant linguistic entities should contribute to effective representation
+    learning. Empirically, we prove this using two downstream tasks with three LRL
+    pairs, English-Sinhala, English-Tamil, and Sinhala-Tamil, and show that our LEM-based
+    learning returns superior results compared to MLM+TLM.
+  archival: false
   attributes:
-    paper_type: short
-    presentation_type: poster
-    submitted_area: Area 1
+    paper_length: Short (4 pages)
+    submission_type: Research Paper
   authors:
-  - first_name: David
-    last_name: McNeill
-  - first_name: Casey
-    last_name: Kennington
+  - dblp_id: https://dblp.org/pid/277/9520.html
+    emails: '****@cse.mrt.ac.lk'
+    first_name: Aloka
+    google_scholar_id: https://scholar.google.com/citations?user=PDGQ-isAAAAJ&hl=en&authuser=1
+    homepage: https://scholar.google.com/citations?user=PDGQ-isAAAAJ&hl=en&authuser=1
+    institution: University of Moratuwa
+    last_name: Fernando
+    name: Aloka Fernando
+    orcid: https://orcid.org/0000-0003-0049-4808
+    username: ~Aloka_Fernando1
+  - dblp_id: https://dblp.uni-trier.de/pid/46/10481.html
+    emails: '****@massey.ac.nz'
+    first_name: Surangika
+    google_scholar_id: https://scholar.google.com/citations?user=TB4RYToAAAAJ&hl=en&oi=ao
+    homepage: https://www.massey.ac.nz/massey/expertise/college-staff-lists/college-of-sciences/all-staff/all-staff_home.cfm?stref=319722
+    institution: Massey University
+    last_name: Ranathunga
+    name: Surangika Ranathunga
+    orcid: https://orcid.org/0000-0003-0701-0204
+    semantic_scholar_id: https://www.semanticscholar.org/author/Surangika-Ranathunga/2594452
+    username: ~Surangika_Ranathunga1
+  - dblp_id: https://dblp.uni-trier.de/pid/180/9385.html
+    emails: '****@cse.mrt.ac.lk'
+    first_name: Nisansa
+    google_scholar_id: https://scholar.google.com/citations?user=OgPD66oAAAAJ&hl=en
+    homepage: http://nisansa.lk
+    institution: University of Moratuwa
+    last_name: de Silva
+    name: Nisansa de Silva
+    orcid: https://orcid.org/0000-0002-5361-4810
+    semantic_scholar_id: https://www.semanticscholar.org/author/Nisansa-de-Silva/40273954
+    username: ~Nisansa_de_Silva1
+  decision: '2025'
   file: 63.pdf
   id: 63
-  title: Learning Word Groundings from Humans Facilitated by Robot Emotional Displays
-- abstract: This paper describes the design and functionality of ConvoKit, an open-source
-    toolkit for analyzing conversations and the social interactions embedded within.
+  openreview_id: 4sWq2fuPuq
+  pdf_file: 36a8ee9a2c4e3b04776a0031bbcb005bb36215e8.pdf
+  title: Linguistic Entity Masking to improve Cross-Lingual representations in encoder-based
+    LLMs
+- abstract: Our desires often influence our beliefs and expectations. Humans tend
+    to think good things are more likely to happen than they actually are, while believing
+    bad things are less likely. This tendency has been referred to as wishful thinking
+    in research on coping strategies. With large language models (LLMs) increasingly
+    being considered as computational models of human cognition, we investigate whether
+    they can simulate this distinctly human bias. We conducted two systematic experiments
+    across multiple LLMs, manipulating outcome desirability and information uncertainty
+    across multiple scenarios including probability games, natural disasters, and
+    sports events. Our experiments revealed limited wishful thinking in LLMs. In Experiment
+    1, only two models showed the bias, and only in sports-related scenarios when
+    role-playing characters. Models exhibited no wishful thinking in mathematical
+    contexts. Experiment 2 found that explicit prompting about emotional states (being
+    hopeful) was necessary to elicit wishful thinking in logical domains. These findings
+    reveal a significant gap between human cognitive biases and LLMs' default behavior
+    patterns, suggesting that current models require explicit guidance to simulate
+    wishful thinking influences on belief formation.
+  archival: true
   attributes:
-    paper_type: short
-    presentation_type: poster
-    submitted_area: Area 3
+    paper_length: Short (4 pages)
+    submission_type: Research Paper
   authors:
-  - first_name: Jonathan
-    last_name: Chang
-    middle_name: P.
-  - first_name: Caleb
-    last_name: Chiam
-  - first_name: Liye
-    last_name: Fu
-  - first_name: Andrew
-    last_name: Wang
-  - first_name: Justine
-    last_name: Zhang
-  - first_name: Cristian
-    last_name: Danescu-Niculescu-Mizil
+  - emails: '****@gmail.com'
+    first_name: Nutchanon
+    google_scholar_id: https://scholar.google.com/citations?user=k_WXSvMAAAAJ&hl=en
+    institution: Thammasat University
+    last_name: Yongsatianchot
+    name: Nutchanon Yongsatianchot
+    username: ~Nutchanon_Yongsatianchot1
+  - dblp_id: https://dblp.org/pid/m/StacyMarsella
+    emails: '****@gmail.com'
+    first_name: Stacy
+    google_scholar_id: https://scholar.google.com/citations?user=LkoaA0gAAAAJ
+    homepage: http://www.ccis.northeastern.edu/people/stacy-c-marsella/
+    institution: Northeastern University
+    last_name: Marsella
+    name: Stacy Marsella
+    username: ~Stacy_Marsella1
+  decision: '2025'
+  file: 64.pdf
+  id: 64
+  openreview_id: FQ4HN0Oxac
+  pdf_file: d2065d7c02636d429c381133f558d5e33dd5a2ea.pdf
+  title: Investigating Motivated Inference in Large Language Models
+- abstract: 'We introduce a multilingual benchmark for evaluating large language models
+    (LLMs) on hate speech detection and generation in low-resource Ethiopian languages:
+    Afaan Oromo, Amharic and Tigrigna, and English (both monolingual and code-mixed).
+    Using a balanced and expert-annotated dataset, we assess five state-of-the-art
+    LLM families across both tasks. Our results show that while LLMs perform well
+    on English detection, their performance on low-resource languages is significantly
+    weaker, revealing that increasing model size alone does not ensure multilingual
+    robustness. More critically, we find that all models, including closed and open-source
+    variants, can be prompted to generate profiled hate speech with minimal resistance.
+    These findings underscore the dual risk of exclusion and exploitation: LLMs fail
+    to protect low-resource communities while enabling scalable harm against them.
+    We make our evaluation framework available to facilitate future research on multilingual
+    model safety and ethical robustness.'
+  archival: true
+  attributes:
+    paper_length: Short (4 pages)
+    submission_type: Research Paper
+  authors:
+  - dblp_id: https://dblp.org/pid/321/9714
+    emails: '****@manchester.ac.uk'
+    first_name: Nuhu
+    google_scholar_id: https://scholar.google.co.uk/citations?user=02ikwAcAAAAJ&hl=en&oi=sra
+    homepage: https://personalpages.manchester.ac.uk/staff/nuhu.ibrahim/
+    last_name: Ibrahim
+    name: Nuhu Ibrahim
+    semantic_scholar_id: https://www.semanticscholar.org/author/Nuhu-Ibrahim/2302712378
+    username: ~Nuhu_Ibrahim1
+  - emails: '****@info-res.org'
+    first_name: Felicity
+    last_name: Mulford
+    name: Felicity Mulford
+    username: ~Felicity_Mulford1
+  - dblp_id: https://dblp.org/pid/92/11424
+    emails: '****@manchester.ac.uk'
+    first_name: Riza
+    google_scholar_id: https://scholar.google.com/citations?user=fRBJmp9gk_cC&hl=en
+    homepage: https://research.manchester.ac.uk/en/persons/riza.batista
+    institution: University of Manchester
+    last_name: Batista-Navarro
+    name: Riza Batista-Navarro
+    semantic_scholar_id: https://www.semanticscholar.org/author/R.-Batista-Navarro/1400900759
+    username: ~Riza_Batista-Navarro1
+  decision: '2025'
+  file: 65.pdf
+  id: 65
+  openreview_id: XXZor39qKM
+  pdf_file: 9953bf1643106c767d7628f0ec310b9d9b1e0276.pdf
+  title: Large Language Models as Detectors or Instigators of Hate Speech in Low-resource
+    Ethiopian Languages
+- abstract: We investigate how Vision-Language Models (VLMs) leverage visual features
+    when making analogical comparisons about people. Using synthetic images of individuals
+    varying in skin tone and nationality, we prompt GPT and Gemini models to make
+    analogical associations with desserts and drinks. Results reveal that VLMs systematically
+    associate darker-skinned individuals with brown-colored food items, with GPT showing
+    stronger associations than Gemini. These patterns are amplified in Thai versus
+    English prompts, suggesting language-dependent encoding of visual stereotypes.
+    The associations persist across manipulation checks including position swapping
+    and clothing changes, though presenting individuals alone yields divergent language-specific
+    patterns. This work reveals concerning associations in VLMs' visual reasoning
+    that vary by language, with important implications for multilingual deployment.
+  archival: true
+  attributes:
+    paper_length: Short (4 pages)
+    submission_type: Research Paper
+  authors:
+  - emails: '****@gmail.com'
+    first_name: Nutchanon
+    google_scholar_id: https://scholar.google.com/citations?user=k_WXSvMAAAAJ&hl=en
+    institution: Thammasat University
+    last_name: Yongsatianchot
+    name: Nutchanon Yongsatianchot
+    username: ~Nutchanon_Yongsatianchot1
+  - emails: '****@brown.edu'
+    first_name: Pachaya
+    google_scholar_id: https://scholar.google.com/citations?user=ongw6xAAAAAJ&hl=en&oi=ao
+    homepage: https://serre-lab.clps.brown.edu/people/
+    last_name: Sailamul
+    name: Pachaya Sailamul
+    orcid: https://orcid.org/0000-0001-6647-870X
+    username: ~Pachaya_Sailamul1
+  decision: '2025'
+  file: 68.pdf
+  id: 68
+  openreview_id: pU3WKsS6V8
+  pdf_file: 541db82d97797b0c4e5efb33efcd2d61d3c0d097.pdf
+  title: 'Brown Like Chocolate: How Vision-Language Models Associate Skin Tone with
+    Food Colors'
+- abstract: 'Multilingual dense embedding models such as Multilingual E5, LaBSE, and
+    BGE-M3 have shown promising results on diverse benchmarks for information retrieval
+    in low-resource languages. But their result on low resource languages is not up
+    to par with other high resource languages. This work improves the performance
+    of BGE-M3 through contrastive fine-tuning; the model was selected because of its
+    superior performance over other multilingual embedding models across MIRACL, MTEB,
+    and SEB benchmarks. To fine-tune this model, we curated a comprehensive dataset
+    comprising Yorùbá (32.9k rows), Igbo (18k rows) and Hausa (85k rows) from mainly
+    news sources. We further augmented our multilingual dataset with English queries
+    and mapped it to each of the Yoruba, Igbo, and Hausa documents, enabling cross-lingual
+    semantic training. We evaluate on two settings: the Wura test set and the MIRACL
+    benchmark. On Wura, the fine-tuned BGE-M3 raises mean reciprocal rank (MRR) to
+    0.9201 for Yorùbá, 0.8638 for Igbo, 0.9230 for Hausa, and 0.8617 for English queries
+    matched to local documents, surpassing the BGE-M3 baselines of 0.7846, 0.7566,
+    0.8575, and 0.7377, respectively. On MIRACL (Yorùbá subset), the fine-tuned model
+    attains 0.5996 MRR, slightly surpassing base BGE-M3 (0.5952) and outperforming
+    ML-E5-large (0.5632) and LaBSE (0.4468).'
+  archival: true
+  attributes:
+    paper_length: Short (4 pages)
+    submission_type: Research Paper
+  authors:
+  - emails: '****@student.funaab.edu.ng'
+    first_name: Abdulmatin
+    institution: Federal University of Agriculture Abeokutar
+    last_name: Omotoso
+    name: Abdulmatin Omotoso
+    username: ~Abdulmatin_Omotoso1
+  - emails: '****@autodesk.com'
+    first_name: Habeeb
+    homepage: https://habeebshopeju.com
+    institution: Autodesk
+    last_name: Shopeju
+    name: Habeeb Shopeju
+    orcid: https://orcid.org/0009-0005-5474-355X
+    username: ~Habeeb_Shopeju1
+  - emails: '****@gmail.com'
+    first_name: Adejumobi
+    last_name: Joshua
+    middle_name: Monjolaoluwa
+    name: Adejumobi Monjolaoluwa Joshua
+    username: ~Adejumobi_Monjolaoluwa_Joshua1
+  - emails: '****@student.funaab.edu.ng'
+    first_name: Shiloh
+    last_name: Oni
+    name: Shiloh Oni
+    username: ~Shiloh_Oni1
+  decision: '2025'
+  file: 70.pdf
+  id: 70
+  openreview_id: ghDYqlUu7j
+  pdf_file: b4be6b0c6dd4f6aa6763210159cb9270675bd88b.pdf
+  title: Improving BGE-M3 Multilingual Dense Embeddings for Nigerian Low Resource
+    Languages
+- abstract: Pre-trained Chinese Natural Language Processing (NLP) tools show reduced
+    performance when analyzing poetry compared to prose. This study investigates the
+    discrepancies between tools trained on either Classical or Modern Chinese prose
+    when handling Classical Chinese prose and Classical Chinese poetry. Three experiments
+    reveal error patterns that indicate the weaker performance on Classical Chinese
+    poemsis due to challenges identifying word boundaries. Specifically, tools trained
+    on Classical prose struggle recognizing word boundaries within Classical poetic
+    structures and tools trained on Modern prose have difficulty with word segmentation
+    in both Classical Chinese genres. These findings provide valuable insights into
+    the limitations of current NLP tools for studying Classical Chinese literature.
+  archival: true
+  attributes:
+    paper_length: Short (4 pages)
+    submission_type: Research Paper
+  authors:
+  - emails: '****@ufl.edu'
+    first_name: Minghao
+    google_scholar_id: https://scholar.google.com/citations?user=hZcX774AAAAJ&hl=zh-CN
+    last_name: Zheng
+    name: Minghao Zheng
+    username: ~Minghao_Zheng1
+  - dblp_id: https://dblp.org/pid/220/3476
+    emails: '****@ufl.edu'
+    first_name: Sarah
+    google_scholar_id: https://scholar.google.com/citations?user=noq07SMAAAAJ&hl=en
+    homepage: https://sarahrmoeller.github.io/
+    institution: University of Florida
+    last_name: Moeller
+    name: Sarah Moeller
+    semantic_scholar_id: https://www.semanticscholar.org/author/Sarah-R.-Moeller/39107010
+    username: ~Sarah_Moeller1
+  decision: '2025'
   file: 71.pdf
   id: 71
-  title: 'ConvoKit: A Toolkit for the Analysis of Conversations'
-- abstract: We present a comprehensive platform to run human-computer experiments
+  openreview_id: BdG5ti7Z3D
+  pdf_file: fded494fbb5be320552abf957adda97f989d3d24.pdf
+  title: Challenges in Processing Chinese Texts Across Genres and Eras
+- abstract: Sandhi, the phonological merging of morphemes, is a central feature of
+    Sanskrit grammar. While Sandhi formation is well-defined by Pāṇini’s Aṣṭādhyāyī,
+    the reverse task—Sandhi splitting—is substantially more complex due to inherent
+    ambiguity and context-sensitive transformations. Accurate splitting is a critical
+    precursor to tokenization in Sanskrit, which lacks explicit word boundaries and
+    presents densely fused compounds. In this work, we present a data-driven approach,
+    fine-tuning the Gemma-3 4B large language model on a dataset of over 49,000 training
+    and 2,000 test examples of compound words and their morpheme-level decompositions.
+    Leveraging the Unsloth framework with low-rank adaptation (LoRA) and 4-bit quantization,
+    we train the model to predict these splits. Our work yields a scalable, Sandhi-aware
+    system designed to enhance modern NLP pipelines for classical Sanskrit, demonstrating
+    an effective application of LLMs to this linguistic challenge.
+  archival: true
   attributes:
-    paper_type: long
-    presentation_type: oral
-    submitted_area: Area 1
+    paper_length: Short (4 pages)
+    submission_type: Research Paper
   authors:
-  - first_name: Arne
-    last_name: "K\xF6hn"
-  - first_name: Julia
-    last_name: Wichlacz
-  - first_name: Christine
-    last_name: "Sch\xE4fer"
-  - first_name: "\xC1lvaro"
-    last_name: Torralba
-  - first_name: Joerg
-    last_name: Hoffmann
-  - first_name: Alexander
-    last_name: Koller
-  file: 72.pdf
-  id: 72
-  title: 'MC-Saar-Instruct: a Platform for Minecraft Instruction Giving Agents'
-- abstract: "We introduce a counseling dialogue system that seeks to assist counselors\
-    \ while they are learning and refining their counseling skills. The system generates\
-    \ counselors\u2019reflections  \u2013  i.e.,  responses that reflect back on what\
-    \ the client has said given the dialogue history. Our method builds upon the new\
-    \ generative pretrained transformer architecture and enhances it with context\
-    \ augmentation techniques inspired by traditional strategies used during counselor\
-    \ training.  Through a set of comparative experiments,  we show that the system\
-    \ that incorporates these strategies performs better in the reflection generation\
-    \ task than a system that is just fine-tuned with counseling conversations. To\
-    \ confirm our findings, we present a human evaluation study that shows that our\
-    \ system generates naturally-looking reflections that are also stylistically and\
-    \ grammatically correct."
+  - emails: '****@pesu.pes.edu'
+    first_name: Samarth
+    last_name: P
+    name: Samarth P
+    username: ~Samarth_P1
+  - emails: '****@pesu.pes.edu'
+    first_name: Sanjay
+    last_name: Mahalingam
+    middle_name: Balaji
+    name: Sanjay Balaji Mahalingam
+    username: ~Sanjay_Balaji_Mahalingam1
+  decision: '2025'
+  file: 73.pdf
+  id: 73
+  openreview_id: TizCCeD6NH
+  pdf_file: 896c325c3bd37eb3a261d220bdbadafe682b9c31.pdf
+  title: 'The Gemma Sutras: Fine-Tuning Gemma 3 for Sanskrit Sandhi Splitting'
+- abstract: 'Large Language Models (LLMs) powered with argentic capabilities are able
+    to do knowledge-intensive tasks without human involvement. A prime example of
+    this tool is Deep research with the capability to browse the web, extract information
+    and generate multi-page reports.
+
+    In this work, we introduce an evaluation sheet that can be used for assessing
+    the capability of Deep Research tools. In addition, we selected academic survey
+    writing as a use case task and evaluated output reports based on the evaluation
+    sheet we introduced. Our findings show the need to have carefully crafted evaluation
+    standards. The evaluation done on OpenAI‘s Deep Search and Google’s Deep Search
+    in generating an academic survey showed the huge gap between search engines and
+    standalone Deep Research tools, as well as the shortcomings in representing the
+    targeted area.'
+  archival: true
   attributes:
-    paper_type: long
-    presentation_type: poster
-    submitted_area: Area 3
+    paper_length: Extended Abstract (2 pages)
+    submission_type: Research Paper
   authors:
-  - first_name: Siqi
-    last_name: Shen
-  - first_name: Charles
-    last_name: Welch
-  - first_name: Rada
-    last_name: Mihalcea
-  - first_name: "Ver\xF3nica"
-    last_name: "P\xE9rez-Rosas"
-  file: 76.pdf
-  id: 76
-  title: Counseling-Style Reflection Generation Using Generative Pretrained Transformers
-    with Augmented Context
-- abstract: Human tackle reading comprehension not only based on the given context
-    itself but often rely on the commonsense beyond. To empower the machine with commonsense
-    reasoning, in this paper, we propose a Commonsense Evidence Generation and Injection
-    framework in reading comprehension, named CEGI. The framework injects two kinds
-    of auxiliary commonsense evidence into comprehensive reading to equip the machine
-    with the ability of rational thinking. Specifically, we build two evidence
+  - emails: '****@cg.uni-saarland.de'
+    first_name: Israel
+    homepage: http://israelabebe.github.io/
+    last_name: Azime
+    middle_name: Abebe
+    name: Israel Abebe Azime
+    orcid: https://orcid.org/0000-0001-9063-1137
+    username: ~Israel_Abebe_Azime1
+  - dblp_id: https://dblp.org/pid/312/3078
+    emails: '****@gmail.com'
+    first_name: Tadesse
+    google_scholar_id: https://scholar.google.com/citations?user=8S7ilV0AAAAJ&hl=en
+    homepage: https://tadesse-destaw.github.io/
+    last_name: Belay
+    middle_name: Destaw
+    name: Tadesse Destaw Belay
+    orcid: https://orcid.org/0000-0003-0883-984X
+    semantic_scholar_id: https://www.semanticscholar.org/author/Tadesse-Destaw-Belay/1484858320
+    username: ~Tadesse_Destaw_Belay1
+  - dblp_id: https://dblp.org/pid/312/3167
+    emails: '****@gmail.com'
+    first_name: Atnafu
+    google_scholar_id: https://scholar.google.com.mx/citations?user=rubyApkAAAAJ&hl=en
+    homepage: http://atnafuatx.github.io/
+    institution: Mohamed bin Zayed University of Artificial Intelligence
+    last_name: Tonja
+    middle_name: Lambebo
+    name: Atnafu Lambebo Tonja
+    orcid: https://orcid.org/0000-0002-3501-5136
+    semantic_scholar_id: https://www.semanticscholar.org/author/Atnafu-Lambebo-Tonja/2148631756
+    username: ~Atnafu_Lambebo_Tonja1
+  decision: '2025'
+  file: 75.pdf
+  id: 75
+  openreview_id: WOf8NW4kG8
+  pdf_file: 7bd89bee9150d2e997eff5288868d46de81e0a71.pdf
+  title: 'Evaluation Sheet for Deep Research: A Use Case for Academic Survey Writing'
+- abstract: The emergence of Large Language Models (LLMs) as chat assistants capable
+    of generating human-like conversations has amplified the need for robust evaluation
+    methods, particularly for open-ended tasks. Conventional metrics such as EM and
+    F1, while useful, are inadequate for capturing the full semantics and contextual
+    depth of such generative outputs. We propose a reference-guided verdict method
+    that automates the evaluation process by leveraging multiple LLMs as judges. Through
+    experiments on free-form question-answering tasks, we demonstrate that combining
+    multiple models improves the reliability and accuracy of evaluations, especially
+    in tasks where a single model may struggle. The results indicate a strong correlation
+    with human evaluations, establishing the proposed method as a reliable alternative
+    to traditional metrics.
+  archival: true
   attributes:
-    paper_type: long
-    presentation_type: poster
-    submitted_area: Area 3
+    paper_length: Short (4 pages)
+    submission_type: Research Paper
   authors:
-  - first_name: Ye
-    last_name: Liu
-  - first_name: Tao
-    last_name: Yang
-  - first_name: Zeyu
-    last_name: You
-  - first_name: Wei
-    last_name: Fan
-  - first_name: Philip
-    last_name: Yu
-    middle_name: S.
-  file: 78.pdf
-  id: 78
-  title: Commonsense Evidence Generation and Injection in Reading Comprehension
-- abstract: ' conversational AI-based dialogue management has increasingly become
-    a trending topic, the need for a standardized and reliable evaluation procedure
-    grows even more pressing. The current state of affairs suggests various evaluation
-    protocols to assess chat-oriented dialogue management systems, rendering it difficult
-    to conduct fair comparative studies across different approaches and gain an insightful
-    understanding of their values. To foster this research, a more robust evaluation
-    protocol must be set in place. This paper presents a comprehensive synthesis of
-    both automated and human evaluation methods on dialogue systems, identifying their
-    shortcomings while accumulating evidence towards the most effective evaluation
-    dimensions. A total of 20 papers from the last two years are surveyed to analyze
-    three types of evaluation protocols: automated, static, and interactive. Finally,
-    the evaluation dimensions used in these papers are compared against our expert
-    evaluation on the system-user dialogue data collected from the Alexa Prize 2020.'
+  - dblp_id: https://dblp.org/pid/264/3006
+    emails: '****@dal.ca'
+    first_name: Sher
+    google_scholar_id: https://scholar.google.com/citations?user=oxMDd5sAAAAJ&hl=en
+    homepage: https://hypermatrix.cs.dal.ca/people/
+    last_name: Badshah
+    name: Sher Badshah
+    orcid: https://orcid.org/0000-0001-6780-3746
+    username: ~Sher_Badshah1
+  - dblp_id: https://dblp.org/pid/73/5938
+    emails: '****@gmail.com'
+    first_name: Hassan
+    google_scholar_id: https://scholar.google.de/citations?user=t3BH6NkAAAAJ&hl=en
+    homepage: https://hsajjad.github.io/
+    institution: Dalhousie University
+    last_name: Sajjad
+    name: Hassan Sajjad
+    orcid: https://orcid.org/0000-0002-8584-6595
+    semantic_scholar_id: https://www.semanticscholar.org/author/Hassan-Sajjad/145775792
+    username: ~Hassan_Sajjad1
+  decision: '2025'
+  file: 80.pdf
+  id: 80
+  openreview_id: umU4bccmd4
+  pdf_file: fb3ffb1b0b76ccdc4e76d4c92cec24d2755db40a.pdf
+  title: 'Reference-Guided Verdict: LLMs-as-Judges in Automatic Evaluation of Free-Form
+    QA'
+- abstract: Natural language explanations (NLEs) are widely used to communicate model
+    reasoning to humans, but they may also serve as effective control signals for
+    improving model performance. In this paper, we present the first comprehensive
+    evaluation of NLEs as prompts in in-context learning (ICL), comparing human-annotated,
+    self-generated, and LLM-generated NLEs across five reasoning benchmarks and three
+    instruction-tuned models (Llama 3 8B, Llama 3 70B, GPT-4o-mini). Our preliminary
+    results show that  LLM-generated explanations, especially those from GPT-4o-mini,
+    yield the highest gains across tasks. We further plan to measure how the faithfulness
+    of self-explanations strongly correlates to its utility, and if models retain
+    partial robustness even when rationales are randomly mismatched or adversarially
+    swapped.
+  archival: false
   attributes:
-    paper_type: long
-    presentation_type: poster
-    submitted_area: Area 3
+    paper_length: Extended Abstract (2 pages)
+    submission_type: Research Paper
   authors:
-  - first_name: Sarah
-    last_name: Finch
-    middle_name: E.
-  - first_name: Jinho
-    last_name: Choi
-    middle_name: D.
-  file: 79.pdf
-  id: 79
-  title: 'Towards Unified Dialogue System Evaluation: A Comprehensive Analysis of
-    Current Evaluation Protocols'
-- abstract: Reinforcement learning and probabilistic reasoning algorithms aim at learning
-    from interaction experiences and reasoning with probabilistic contextual knowledge
-    respectively. In this research, we develop algorithms for robot task completions,
-    while looking into the complementary strengths of reinforcement learning and probabilistic
-    reasoning techniques. The robots learn from trial-and-error experiences to augment
-    their declarative knowledge base, and the augmented knowledge can be used for
-    speeding up the learning process in potentially different tasks. We have implemented
-    and evaluated the developed algorithms using mobile robots conducting dialog and
-    navigation tasks. From the results, we see that our robot's performance can be
-    improved by both reasoning with human knowledge and learning from task-completion
-    experience. More interestingly, the robot was able to learn from navigation tasks
-    to improve its dialog strategies.
-  attributes:
-    paper_type: long
-    presentation_type: poster
-    submitted_area: Area 2
-  authors:
-  - first_name: Keting
-    last_name: Lu
-  - first_name: Shiqi
-    last_name: Zhang
-  - first_name: Peter
-    last_name: Stone
-  - first_name: Xiaoping
-    last_name: Chen
+  - dblp_id: https://dblp.org/pid/292/2376
+    emails: '****@tum.de'
+    first_name: Mahdi
+    google_scholar_id: https://scholar.google.com/citations?user=JifHTiwAAAAJ&hl=en
+    homepage: https://wwwmatthes.in.tum.de/pages/k2uu16iwws0y/Mahdi-Dhaini
+    last_name: Dhaini
+    name: Mahdi Dhaini
+    orcid: https://orcid.org/0000-0002-7831-3141
+    semantic_scholar_id: https://www.semanticscholar.org/author/Mahdi-Dhaini/2240530810
+    username: ~Mahdi_Dhaini1
+  - dblp_id: https://dblp.org/pid/294/2869
+    emails: '****@imperial.ac.uk'
+    first_name: Adam
+    google_scholar_id: https://scholar.google.com/citations?user=zgX6bw0AAAAJ
+    homepage: https://profiles.imperial.ac.uk/adam.dejl18
+    institution: Imperial College London
+    last_name: Dejl
+    name: Adam Dejl
+    orcid: https://orcid.org/0009-0006-0274-4160
+    semantic_scholar_id: https://www.semanticscholar.org/author/Adam-Dejl/2092514133
+    username: ~Adam_Dejl1
+  - dblp_id: https://dblp.org/pid/242/4726
+    emails: '****@tum.de'
+    first_name: Juraj
+    google_scholar_id: https://scholar.google.com/citations?user=h7dD6rsAAAAJ&hl=en
+    institution: Technische Universität München
+    last_name: Vladika
+    name: Juraj Vladika
+    semantic_scholar_id: https://www.semanticscholar.org/author/Juraj-Vladika/2066962303
+    username: ~Juraj_Vladika1
+  - emails: '****@tum.de'
+    first_name: Volkan
+    institution: Technical University of Munich
+    last_name: Özer
+    name: Volkan Özer
+    username: ~Volkan_Özer1
+  - dblp_id: https://dblp.org/pid/69/3216
+    emails: '****@tum.de'
+    first_name: Gjergji
+    google_scholar_id: https://scholar.google.com/citations?user=Zbc8GK4AAAAJ&hl=de&oi=sra
+    homepage: https://www.gov.sot.tum.de/rds/prof-dr-gjergji-kasneci/
+    institution: Technische Universität München and University of Tuebingen
+    last_name: Kasneci
+    name: Gjergji Kasneci
+    orcid: https://orcid.org/0000-0002-3123-7268
+    semantic_scholar_id: https://www.semanticscholar.org/author/Gjergji-Kasneci/1686448
+    username: ~Gjergji_Kasneci2
+  decision: '2025'
   file: 81.pdf
   id: 81
-  title: Learning and Reasoning for Robot Dialog and Navigation Tasks
-- abstract: 'Most prior work on task-oriented dialogue systems are restricted to a
-    limited coverage of domain APIs, while users oftentimes have domain related requests
-    that are not covered by the APIs. In this paper, we propose to expand coverage
-    of task-oriented dialogue systems by incorporating external unstructured knowledge
-    sources. We define three sub-tasks: knowledge-seeking turn detection, knowledge
-    selection, and knowledge-grounded response generation, which can be modeled individually
-    or jointly. We introduce an augmented version of MultiWOZ 2.1, which includes
-    new out-of-API-coverage turns and responses grounded on external knowledge sources.
-    We present baselines for each sub-task using both conventional and neural approaches.
-    Our experimental results demonstrate the need for further research in this direction
-    to enable more informative conversational systems.'
+  openreview_id: cSsGjQQXmF
+  pdf_file: 6c548ab9607f9473be6a06e4df2af67240979345.pdf
+  title: A Comparative Study on the Utility of Natural Language explanations for Enhancing
+    Language Models Reasoning Performance
+- abstract: Large language models (LLMs) are increasingly integrated into our daily
+    lives and personalized. However, LLM personalization might also increase unintended
+    side effects. Recent work suggests that persona prompting can lead models to falsely
+    refuse user requests. However, no work has fully quantified the extent of this
+    issue. To address this gap, we measure the impact of 15 sociodemographic personas
+    (based on gender, race, religion, and disability) on false refusal. To control
+    for other factors, we also test 16 different models, 3 tasks (Natural Language
+    Inference, politeness, and offensiveness classification), and nine prompt paraphrases.
+    We propose a Monte Carlo-based method to quantify this issue in a sample-efficient
+    manner. Our results show that as models become more capable, personas impact the
+    refusal rate less. However, we find that the choice of model significantly influence
+    false refusals, especially in sensitive content tasks. The impact of certain sociodemographic
+    personas further increases the false refusal effect in some models, which suggests
+    that there are underlying biases in the alignment strategies or safety mechanisms.
+  archival: true
   attributes:
-    paper_type: short
-    presentation_type: oral
-    submitted_area: Area 2
+    paper_length: Short (4 pages)
+    submission_type: Research Paper
   authors:
-  - first_name: Seokhwan
-    last_name: Kim
-  - first_name: Mihail
-    last_name: Eric
-  - first_name: Karthik
-    last_name: Gopalakrishnan
-  - first_name: Behnam
-    last_name: Hedayatnia
-  - first_name: Yang
-    last_name: Liu
-  - first_name: Dilek
-    last_name: Hakkani-Tur
-  file: 83.pdf
-  id: 83
-  title: 'Beyond Domain APIs: Task-oriented Conversational Modeling with Unstructured
-    Knowledge Access'
-- abstract: We present a framework for improving task-oriented dialog systems through
-    online interactive teaching with human trainers. A dialog policy trained with
-    imitation learning on a limited corpus may not generalize well to novel dialog
-    flows often uncovered in live interactions. This issue is magnified in multi-action
-    dialog policies which have a more expressive action space. In our approach, a
-    pre-trained dialog policy model interacts with human trainers, and at each turn
-    the trainers choose the best output among N-best multi-action outputs. We present
-    a novel multi-domain, multi-action dialog policy architecture trained on MultiWOZ,
-    and show that small amounts of online supervision can lead to significant improvement
-    in model performance. We also present transfer learning results which show that
-    interactive learning in one domain improves policy model performance in related
-    domains.
-  attributes:
-    paper_type: short
-    presentation_type: oral
-    submitted_area: Area 1
-  authors:
-  - first_name: Megha
-    last_name: Jhunjhunwala
-  - first_name: Caleb
-    last_name: Bryant
-  - first_name: Pararth
-    last_name: Shah
-  file: 87.pdf
-  id: 87
-  title: Multi-Action Dialog Policy Learning with Interactive Human Teaching
-- abstract: We investigate differences in user communication with live chat agents
-    versus a commercial Intelligent Virtual Agent (IVA). This case study compares
-    the two types of interactions in the same domain for the same company filling
-    the same purposes. We compared 16,794 human-to-human conversations and 27,674
-    conversations with the IVA. Of those IVA conversations, 8,324 escalated to human
-    live chat agents. We then investigated how human-to-human communication strategies
-    change when users first communicate with an IVA in the same conversation thread.
-    We measured quantity, quality, and diversity of language, and analyzed complexity
-    using numerous features.
-  attributes:
-    paper_type: short
-    presentation_type: oral
-    submitted_area: Area 3
-  authors:
-  - first_name: Timothy
-    last_name: Hewitt
-  - first_name: Ian
-    last_name: Beaver
-  file: 89.pdf
-  id: 89
-  title: A Case Study of User Communication Styles with Customer Service Agents versus
-    Intelligent Virtual Agents
-- abstract: We are studying a cooperation style where multiple speakers can provide
-    both advanced dialogue services and operator education. We focus on a style in
-    which two operators interact with a user by pretending to be a single operator.
-    For two operators to effectively act as one, each must adjust his/her conversational
-    content and timing to the other. In the process, we expect each operator to experience
-    the conversational content of his/her partner as if it were his/her own, creating
-    efficient and effective learning of the other's skill. We analyzed this educational
-    effect and examined whether dialogue services can be successfully provided by
-    collecting travel guidance dialogue data from operators who give travel information
-    to users. In this paper, we report our preliminary results on dialogue content
-    and user satisfaction of operators and users.
-  attributes:
-    paper_type: short
-    presentation_type: oral
-    submitted_area: Area 2
-  authors:
-  - first_name: Tsunehiro
-    last_name: Arimoto
-  - first_name: Ryuichiro
-    last_name: Higashinaka
-  - first_name: Kou
-    last_name: Tanaka
-  - first_name: Takahito
-    last_name: Kawanishi
-  - first_name: Hiroaki
-    last_name: Sugiyama
-  - first_name: Hiroshi
-    last_name: Sawada
-  - first_name: Hiroshi
-    last_name: Ishiguro
-  file: 92.pdf
-  id: 92
-  title: Collection and Analysis of Dialogues Provided by Two Speakers Acting as One
-- abstract: We analyze a corpus of referential communication through the lens of quantitative
-    models of speaker reasoning.  Different models place different emphases on linguistic
-    reasoning and collaborative reasoning.  This leads models to make different assessments
-    of the risks and rewards of using specific utterances in specific contexts.  By
-    fitting a latent variable model to the corpus, we can exhibit utterances that
-    give systematic evidence of the diverse kinds of reasoning speakers employ, and
-    build integrated models that recognize not only speaker reference but also speaker
-    reasoning.
-  attributes:
-    paper_type: short
-    presentation_type: poster
-    submitted_area: Area 3
-  authors:
-  - first_name: Brian
-    last_name: McMahan
-  - first_name: Matthew
-    last_name: Stone
-  file: 94.pdf
-  id: 94
-  title: Analyzing Speaker Strategy in Referential Communication
-- abstract: Contextualized language modeling using deep Transformer networks has been
-    applied to a variety of natural language processing tasks with remarkable success.
-    However, we find that these models are not a panacea for a question-answering
-    dialogue agent corpus task, which has hundreds of classes in a long-tailed frequency
-    distribution, with only thousands of data points. Instead, we find substantial
-    improvements in recall and accuracy on rare classes from a simple one-layer RNN
-    with multi-headed self-attention and static word embeddings as inputs. While much
-    research has used attention weights to illustrate what input is important for
-    a task, the complexities of our dialogue corpus offer a unique opportunity to
-    examine how the model represents what it attends to, and we offer a detailed analysis
-    of how that contributes to improved performance on rare classes. A particularly
-    interesting phenomenon we observe is that the model picks up implicit meanings
-    by splitting different aspects of the semantics of a single word across multiple
-    attention heads.
-  attributes:
-    paper_type: long
-    presentation_type: oral
-    submitted_area: Area 3
-  authors:
-  - first_name: Adam
-    last_name: Stiff
-  - first_name: Qi
-    last_name: Song
-  - first_name: Eric
-    last_name: Fosler-Lussier
-  file: 97.pdf
-  id: 97
-  title: How Self-Attention Improves Rare Class Performance in a Question-Answering
-    Dialogue Agent
-- abstract: Natural language generators (NLGs) for task-oriented dialogue typically
-    take a meaning representation (MR) as input, and are trained end-to-end with a
-    corpus of MR/utterance pairs, where the MRs cover a specific set of dialogue acts
-    and domain attributes. Creation of such datasets is labor intensive and time consuming.
-    Therefore, dialogue systems for new domain ontologies would benefit from using
-    data for pre-existing ontologies. Here we explore, for the first time, whether
-    it is possible to train an NLG for a new larger ontology using existing training
-    sets for the restaurant domain, where each set is based on a different ontology.
-    We create a new, larger combined ontology, and then train an NLG to produce utterances
-    covering it. For example, if one dataset has attributes for family friendly and
-    rating information, and the other has attributes for decor and service, our aim
-    is an NLG for the combined ontology that can produce utterances that realize values
-    for family friendly, rating, decor and service. Initial experiments with a baseline
-    neural sequence-to-sequence model show that this task is surprisingly challenging.
-    We then develop a novel self-training method that identifies (errorful) model
-    outputs, automatically constructs a corrected MR input to form a new (MR, utterance)
-    training pair, and then repeatedly adds these new instances back into the training
-    data. We then test the resulting model on a new test set. The result is a self-trained
-    model whose performance is an absolute 75.4\% improvement over the baseline model.
-    We also report a human qualitative evaluation of the final model showing that
-    it achieves high naturalness, semantic coherence and grammaticality.
-  attributes:
-    paper_type: short
-    presentation_type: poster
-    submitted_area: Area 1
-  authors:
-  - first_name: Lena
-    last_name: Reed
-  - first_name: Vrindavan
-    last_name: Harrison
-  - first_name: Shereen
-    last_name: Oraby
-  - first_name: Dilek
-    last_name: Hakkani-Tur
-  - first_name: Marilyn
-    last_name: Walker
-  file: 98.pdf
-  id: 98
-  title: 'Learning from Mistakes: Combining Ontologies via Self-Training for Dialogue
-    Generation'
-- abstract: This demo paper presents Emora STDM (State Transition Dialogue Manager),
-    a dialogue system development framework that provides novel workflows for rapid
-    prototyping of chat-based dialogue managers as well as collaborative development
-    of complex interactions. Our framework caters to a wide range of expertise levels
-    by supporting interoperability between two popular approaches, state machine and
-    information state, to dialogue management. Our Natural Language Expression package
-    allows seamless integration of pattern matching, custom NLP modules, and database
-    querying, that makes the workflows much more efficient. As a user study, we adopt
-    this framework to an interdisciplinary undergraduate course where students with
-    both technical and non-technical backgrounds are able to develop creative dialogue
-    managers in a short period of time.
-  attributes:
-    paper_type: short
-    presentation_type: oral
-    submitted_area: Area 1
-  authors:
-  - first_name: James
-    last_name: Finch
-    middle_name: D.
-  - first_name: Jinho
-    last_name: Choi
-    middle_name: D.
-  file: 100.pdf
-  id: 100
-  title: 'Emora STDM: A Versatile Framework for Innovative Dialogue System Development'
-- abstract: Emotion recognition in conversation (ERC) is an important topic for developing
-    empathetic machines in a variety of areas including social opinion mining, health-care
-    and so on. In this paper, we propose a method to model ERC task as sequence tagging
-    where a Conditional Random Field (CRF) layer is leveraged to learn the emotional
-    consistency in the conversation. We employ LSTM-based encoders that capture self
-    and inter-speaker dependency of interlocutors to generate contextualized utterance
-    representations which are fed into the CRF layer. For capturing long-range global
-    context, we use a multi-layer Transformer encoder to enhance the LSTM-based encoder.
-    Experiments show that our method benefits from modeling the emotional consistency
-    and outperforms the current state-of-the-art methods on multiple emotion classification
-    datasets.
-  attributes:
-    paper_type: short
-    presentation_type: poster
-    submitted_area: Area 2
-  authors:
-  - first_name: Yan
-    last_name: Wang
-  - first_name: Jiayu
-    last_name: Zhang
-  - first_name: Jun
-    last_name: Ma
-  - first_name: Shaojun
-    last_name: Wang
-  - first_name: Jing
-    last_name: Xiao
-  file: 102.pdf
-  id: 102
-  title: Contextualized Emotion Recognition in Conversation as Sequence Tagging
-- abstract: 'Task-oriented dialog systems rely on dialog state tracking (DST) to monitor
-    the user''s goal during the course of an interaction. Multi-domain and open-vocabulary
-    settings complicate the task considerably and demand scalable solutions. In this
-    paper we present a new approach to DST which makes use of various copy mechanisms
-    to fill slots with values. Our model has no need to maintain a list of candidate
-    values. Instead, all values are extracted from the dialog context on-the-fly.
-    A slot is filled by one of three copy mechanisms: (1) Span prediction may extract
-    values directly from the user input; (2) a value may be copied from a system inform
-    memory that keeps track of the system''s inform operations (3) a value may be
-    copied over from a different slot that is already contained in the dialog state
-    to resolve coreferences within and across domains. Our approach combines the advantages
-    of span-based slot filling methods with memory methods to avoid the use of value
-    picklists altogether. We argue that our strategy simplifies the DST task while
-    at the same time achieving state of the art performance on various popular evaluation
-    sets including Multiwoz 2.1, where we achieve a joint goal accuracy beyond 55%.'
-  attributes:
-    paper_type: short
-    presentation_type: oral
-    submitted_area: Area 2
-  authors:
-  - first_name: Michael
-    last_name: Heck
-  - first_name: Carel
-    last_name: Niekerk
-    middle_name: van
-  - first_name: Nurul
-    last_name: Lubis
-  - first_name: Christian
-    last_name: Geishauser
-  - first_name: Hsien-Chin
-    last_name: Lin
-  - first_name: Marco
-    last_name: Moresi
-  - first_name: Milica
-    last_name: Gasic
-  file: 103.pdf
-  id: 103
-  title: 'TripPy: A Triple Copy Strategy for Value Independent Neural Dialog State
-    Tracking'
+  - dblp_id: https://dblp.org/pid/185/4247.html
+    emails: '****@liacs.leidenuniv.nl'
+    first_name: Flor
+    google_scholar_id: https://scholar.google.com/citations?user=4GqDwGEAAAAJ&hl=en
+    homepage: https://fmplaza.github.io/
+    institution: Leiden University
+    last_name: Plaza-del-Arco
+    middle_name: Miriam
+    name: Flor Miriam Plaza-del-Arco
+    orcid: https://orcid.org/0000-0002-3020-5512
+    semantic_scholar_id: https://www.semanticscholar.org/author/Flor-Miriam-Plaza-del-Arco/3455118
+    username: ~Flor_Miriam_Plaza-del-Arco1
+  - dblp_id: https://dblp.org/pid/282/4243
+    emails: '****@unibocconi.it'
+    first_name: Paul
+    google_scholar_id: https://scholar.google.com/citations?user=7rpmd9cAAAAJ&hl=en
+    homepage: https://paulrottger.com/
+    institution: Bocconi University
+    last_name: Röttger
+    name: Paul Röttger
+    orcid: https://orcid.org/0009-0008-7115-6893
+    semantic_scholar_id: https://www.semanticscholar.org/author/Paul-R%C3%B6ttger/2043232919
+    username: ~Paul_Röttger2
+  - dblp_id: https://dblp.org/pid/295/0198
+    emails: '****@google.com'
+    first_name: Nino
+    google_scholar_id: https://scholar.google.com/citations?user=CG9n26kAAAAJ&hl=en
+    homepage: https://ninodimontalcino.github.io/
+    institution: Google
+    last_name: Scherrer
+    name: Nino Scherrer
+    semantic_scholar_id: https://www.semanticscholar.org/author/Nino-Scherrer/1742339548
+    username: ~Nino_Scherrer1
+  - emails: '****@unibocconi.it'
+    first_name: Emanuele
+    google_scholar_id: https://scholar.google.it/citations?user=S210UlUAAAAJ&hl=it&oi=ao
+    institution: Bocconi University
+    last_name: Borgonovo
+    name: Emanuele Borgonovo
+    username: ~Emanuele_Borgonovo1
+  - dblp_id: https://dblp.org/pid/59/11340
+    emails: '****@tu-clausthal.de'
+    first_name: Elmar
+    google_scholar_id: https://scholar.google.com/citations?user=oqP0ljAAAAAJ&hl=de&oi=ao
+    institution: Helmholtz-Zentrum Dresden-Rossendorf
+    last_name: Plischke
+    name: Elmar Plischke
+    orcid: https://orcid.org/0000-0002-2019-9243
+    semantic_scholar_id: https://www.semanticscholar.org/author/E.-Plischke/1766555
+    username: ~Elmar_Plischke1
+  - dblp_id: https://dblp.org/pid/82/8159
+    emails: '****@unibocconi.it'
+    first_name: Dirk
+    google_scholar_id: https://scholar.google.it/citations?user=7xluaTAAAAAJ&hl=en
+    homepage: http://www.dirkhovy.com
+    institution: Bocconi University
+    last_name: Hovy
+    name: Dirk Hovy
+    orcid: https://orcid.org/0000-0002-4618-3127
+    semantic_scholar_id: https://www.semanticscholar.org/author/Dirk-Hovy/2022288
+    username: ~Dirk_Hovy2
+  decision: '2025'
+  file: 82.pdf
+  id: 82
+  openreview_id: VtCcrjuOLW
+  pdf_file: 49705f1fcf87947a4ee2529ac78e4d69d19bc8bc.pdf
+  title: 'No for Some, Yes for Others: Persona Prompts and Other Sources of False
+    Refusal in Language Models'

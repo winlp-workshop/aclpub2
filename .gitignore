@@ -1,5 +1,6 @@
 /build
 /output
+/openreview/papers
 */__pycache__/
 *.log
 *.aux
