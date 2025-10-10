@@ -1,27 +1,27 @@
 - title: Language Models Do Not Have Human-Like Working Memory
   abstract_file: invited1.tex
-  speaker_name: Dr. Jen-Tse Huang
+  speaker_name: Jen-Tse Huang
   institution: Johns Hopkins University
   bio_file: invited1_bio.tex
-  date: 2025-11-04 16:30:00
-  location: Room 1
+  #date: 2025-11-04 16:30:00
+  #location: Room 1
   chair: Chair 1
 
 - title: Scaling Multilingual Evaluation of LLMs to Many Languages
   abstract_file: invited2.tex
-  speaker_name: Dr. David Adelani
+  speaker_name: David Adelani
   institution: McGill University
   bio_file: invited2_bio.tex
-  date: 2025-11-04 18:30:00
-  location: Room 2
+  #date: 2025-11-04 18:30:00
+  #location: Room 2
   chair: Chair 2
 
-- title: Panel 1
+- title: After a PhD, What is Waiting for us? A Discussion and Experiences from Industry, Academia, and Startups
   # abstract_file: panel1.tex
-  speaker_name: XXX
-  institution: XXX
+  speaker_name: Christos Christodoulopoulos, Julia Kreutzer, Pittawat Taveekitworachai, Zhisong Zhang
+  #institution: XXX
   bio_file: panel1_bio.tex
-  date: 2025-11-04 18:30:00
-  location: Room 2
+  #date: 2025-11-04 18:30:00
+  #location: Room 2
   chair: Chair 2
   custom_prefix: Panel
