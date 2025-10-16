@@ -1480,45 +1480,6 @@
   pdf_file: 63a55889a660502a6d37514adc41170dc5b9e8a7.pdf
   title: 'JustDial: Language Model Dialect Debiasing Using Biased Character Trait
     Associations'
-- abstract: 'Capability evaluation of large language models is increasingly shadowed
-    by rising concerns of benchmark contamination, which cast doubt on whether static
-    legacy benchmarks are measuring genuine reasoning capability or mere memorization.
-
-    Benchmark perturbation emerges as a defining frontier for dynamic evaluation by
-    systematically modifying evaluation problems on various levels, such as altering
-    numerical values in math problems, modifying narrative contexts in science questions,
-    or introducing adversarial triggers. This approach offers a promising method to
-    distinguish authentic understanding from pattern matching.
-
-    We propose to study benchmark perturbation in a unified framework where we compare
-    the efficacy of various perturbation technique on a collection of legacy benchmarks
-    adopted by leading modern developers. We further plan to modularize a variety
-    of perturbation techniques to enable plug-and-play refreshing of benchmarks at
-    scale for future evaluation. We aim to move beyond simple data collection for
-    LLM benchmarking and eventually shift the paradigm towards self-evolving dynamic
-    evaluation.'
-  archival: true
-  attributes:
-    paper_length: Short (4 pages)
-    submission_type: Thesis Proposal
-  authors:
-  - dblp_id: https://dblp.org/pid/408/5364
-    emails: '****@ethz.ch'
-    first_name: Terry
-    google_scholar_id: https://scholar.google.co.uk/citations?hl=en&user=hFY4t8gAAAAJ
-    homepage: https://terry-zhang.notion.site/
-    last_name: Zhang
-    middle_name: Jingchen
-    name: Terry Jingchen Zhang
-    orcid: https://orcid.org/0009-0009-1271-4696
-    semantic_scholar_id: https://www.semanticscholar.org/author/Terry-Jingchen-Zhang/2363686592
-    username: ~Terry_Jingchen_Zhang1
-  decision: '2025'
-  file: 62.pdf
-  id: 62
-  openreview_id: bCL9Xhqohi
-  pdf_file: 0548cadfa7e27ccb1dba4266f86755a3abd4259e.pdf
-  title: 'Proposal: Revive Legacy Benchmarks By Self-Evolving Perturbations'
 - abstract: Multilingual Pre-trained Language Models (multiPLMs) trained with the
     Masked Language Modeling (MLM) objective exhibit suboptimal performance on cross-lingual
     downstream tasks for Low-Resource Languages (LRLs). Continually pre-training these
